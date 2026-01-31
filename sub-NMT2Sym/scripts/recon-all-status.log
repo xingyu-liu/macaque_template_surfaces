@@ -1,0 +1,148 @@
+status file for recon-all
+Fri Jan 30 16:06:10 EST 2026
+recon-all -s sub-NMT2Sym_amy finished without error at Fri Jan 30 16:06:11 EST 2026
+
+
+
+#New# invocation of recon-all 
+
+
+
+status file for recon-all
+Fri Jan 30 16:06:18 EST 2026
+recon-all -s sub-NMT2Sym_amy finished without error at Fri Jan 30 16:06:19 EST 2026
+
+
+
+#New# invocation of recon-all 
+
+
+
+status file for recon-all
+Fri Jan 30 16:06:40 EST 2026
+#@# white curv lh Fri Jan 30 16:06:47 EST 2026
+#@# white area lh Fri Jan 30 16:06:48 EST 2026
+#@# pial curv lh Fri Jan 30 16:06:49 EST 2026
+#@# pial area lh Fri Jan 30 16:06:49 EST 2026
+#@# thickness lh Fri Jan 30 16:06:50 EST 2026
+#@# area and vertex vol lh Fri Jan 30 16:06:54 EST 2026
+recon-all -s sub-NMT2Sym_amy finished without error at Fri Jan 30 16:06:56 EST 2026
+
+
+
+#New# invocation of recon-all 
+
+
+
+status file for recon-all
+Fri Jan 30 16:06:59 EST 2026
+#@# white curv rh Fri Jan 30 16:07:06 EST 2026
+#@# white area rh Fri Jan 30 16:07:07 EST 2026
+#@# pial curv rh Fri Jan 30 16:07:08 EST 2026
+#@# pial area rh Fri Jan 30 16:07:09 EST 2026
+#@# thickness rh Fri Jan 30 16:07:10 EST 2026
+#@# area and vertex vol rh Fri Jan 30 16:07:13 EST 2026
+recon-all -s sub-NMT2Sym_amy finished without error at Fri Jan 30 16:07:15 EST 2026
+
+
+
+#New# invocation of recon-all 
+
+
+
+status file for recon-all
+Fri Jan 30 16:07:27 EST 2026
+#@# white curv lh Fri Jan 30 16:07:27 EST 2026
+#@# white area lh Fri Jan 30 16:07:27 EST 2026
+#@# pial curv lh Fri Jan 30 16:07:28 EST 2026
+#@# pial area lh Fri Jan 30 16:07:28 EST 2026
+#@# thickness lh Fri Jan 30 16:07:29 EST 2026
+#@# area and vertex vol lh Fri Jan 30 16:07:29 EST 2026
+#@# Curvature Stats lh Fri Jan 30 16:07:31 EST 2026
+recon-all -s sub-NMT2Sym_amy finished without error at Fri Jan 30 16:07:32 EST 2026
+
+
+
+#New# invocation of recon-all 
+
+
+
+status file for recon-all
+Fri Jan 30 16:07:34 EST 2026
+#@# white curv rh Fri Jan 30 16:07:34 EST 2026
+#@# white area rh Fri Jan 30 16:07:35 EST 2026
+#@# pial curv rh Fri Jan 30 16:07:36 EST 2026
+#@# pial area rh Fri Jan 30 16:07:36 EST 2026
+#@# thickness rh Fri Jan 30 16:07:37 EST 2026
+#@# area and vertex vol rh Fri Jan 30 16:07:38 EST 2026
+#@# Curvature Stats rh Fri Jan 30 16:07:39 EST 2026
+recon-all -s sub-NMT2Sym_amy finished without error at Fri Jan 30 16:07:40 EST 2026
+
+
+
+#New# invocation of recon-all 
+
+
+
+status file for recon-all
+Fri Jan 30 16:07:42 EST 2026
+#@# white curv lh Fri Jan 30 16:07:42 EST 2026
+#@# white area lh Fri Jan 30 16:07:42 EST 2026
+#@# pial curv lh Fri Jan 30 16:07:43 EST 2026
+#@# pial area lh Fri Jan 30 16:07:44 EST 2026
+#@# thickness lh Fri Jan 30 16:07:44 EST 2026
+#@# area and vertex vol lh Fri Jan 30 16:07:45 EST 2026
+#@# white curv rh Fri Jan 30 16:07:46 EST 2026
+#@# white area rh Fri Jan 30 16:07:46 EST 2026
+#@# pial curv rh Fri Jan 30 16:07:47 EST 2026
+#@# pial area rh Fri Jan 30 16:07:48 EST 2026
+#@# thickness rh Fri Jan 30 16:07:48 EST 2026
+#@# area and vertex vol rh Fri Jan 30 16:07:49 EST 2026
+#@# Cortical ribbon mask Fri Jan 30 16:07:50 EST 2026
+recon-all -s sub-NMT2Sym_amy finished without error at Fri Jan 30 16:08:13 EST 2026
+
+
+
+#New# invocation of recon-all 
+
+
+
+status file for recon-all
+Fri Jan 30 16:08:14 EST 2026
+#@# white curv lh Fri Jan 30 16:08:14 EST 2026
+#@# white area lh Fri Jan 30 16:08:15 EST 2026
+#@# pial curv lh Fri Jan 30 16:08:15 EST 2026
+#@# pial area lh Fri Jan 30 16:08:16 EST 2026
+#@# thickness lh Fri Jan 30 16:08:16 EST 2026
+#@# area and vertex vol lh Fri Jan 30 16:08:17 EST 2026
+#@# white curv rh Fri Jan 30 16:08:18 EST 2026
+#@# white area rh Fri Jan 30 16:08:19 EST 2026
+#@# pial curv rh Fri Jan 30 16:08:19 EST 2026
+#@# pial area rh Fri Jan 30 16:08:20 EST 2026
+#@# thickness rh Fri Jan 30 16:08:21 EST 2026
+#@# area and vertex vol rh Fri Jan 30 16:08:21 EST 2026
+#@# Relabel Hypointensities Fri Jan 30 16:08:22 EST 2026
+recon-all -s sub-NMT2Sym_amy finished without error at Fri Jan 30 16:08:29 EST 2026
+
+
+
+#New# invocation of recon-all 
+
+
+
+status file for recon-all
+Fri Jan 30 16:08:29 EST 2026
+#@# white curv lh Fri Jan 30 16:08:29 EST 2026
+#@# white area lh Fri Jan 30 16:08:30 EST 2026
+#@# pial curv lh Fri Jan 30 16:08:30 EST 2026
+#@# pial area lh Fri Jan 30 16:08:31 EST 2026
+#@# thickness lh Fri Jan 30 16:08:32 EST 2026
+#@# area and vertex vol lh Fri Jan 30 16:08:32 EST 2026
+#@# white curv rh Fri Jan 30 16:08:33 EST 2026
+#@# white area rh Fri Jan 30 16:08:34 EST 2026
+#@# pial curv rh Fri Jan 30 16:08:35 EST 2026
+#@# pial area rh Fri Jan 30 16:08:35 EST 2026
+#@# thickness rh Fri Jan 30 16:08:36 EST 2026
+#@# area and vertex vol rh Fri Jan 30 16:08:37 EST 2026
+#@# APas-to-ASeg Fri Jan 30 16:08:38 EST 2026
+recon-all -s sub-NMT2Sym_amy finished without error at Fri Jan 30 16:08:43 EST 2026

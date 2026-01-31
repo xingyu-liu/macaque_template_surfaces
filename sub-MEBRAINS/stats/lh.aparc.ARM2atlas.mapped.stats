@@ -1,0 +1,81 @@
+# Table of FreeSurfer cortical parcellation anatomical statistics 
+# 
+# CreationTime 2026/01/30-20:45:13-GMT
+# generating_program mris_anatomical_stats
+# cvs_version 7.4.1
+# mrisurf.c-cvs_version 7.4.1
+# cmdline mris_anatomical_stats -th3 -mgz -b -cortex /mnt/DataDrive3/xliu/prep_test/banana_test/preproc/surf_recon/sub-MEBRAIN_amy/label/lh.cortex.label -f /mnt/DataDrive3/xliu/prep_test/banana_test/preproc/surf_recon/sub-MEBRAIN_amy/stats/lh.aparc.ARM2atlas.mapped.stats -a /mnt/DataDrive3/xliu/prep_test/banana_test/preproc/surf_recon/sub-MEBRAIN_amy/label/lh.aparc.ARM2atlas.mapped.annot sub-MEBRAIN_amy lh white 
+# sysname  Linux
+# hostname SAS-664VW04
+# machine  x86_64
+# user     star
+# 
+# SUBJECTS_DIR /mnt/DataDrive3/xliu/prep_test/banana_test/preproc/surf_recon
+# anatomy_type surface
+# subjectname sub-MEBRAIN_amy
+# hemi lh
+# AnnotationFile /mnt/DataDrive3/xliu/prep_test/banana_test/preproc/surf_recon/sub-MEBRAIN_amy/label/lh.aparc.ARM2atlas.mapped.annot
+# AnnotationFileTimeStamp 2026/01/30 15:41:42
+# Measure Cortex, NumVert, Number of Vertices, 95393, unitless
+# Measure Cortex, WhiteSurfArea, White Surface Total Area, 9648.05, mm^2
+# Measure Cortex, MeanThickness, Mean Thickness, 1.88125, mm
+# BrainVolStatsFixed see surfer.nmr.mgh.harvard.edu/fswiki/BrainVolStatsFixed
+# Measure BrainSeg, BrainSegVol, Brain Segmentation Volume, 76889.091652, mm^3
+# Measure BrainSegNotVent, BrainSegVolNotVent, Brain Segmentation Volume Without Ventricles, 76466.115632, mm^3
+# Measure BrainSegNotVentSurf, BrainSegVolNotVentSurf, Brain Segmentation Volume Without Ventricles from Surf, 85919.046723, mm^3
+# Measure Cortex, CortexVol, Total cortical gray matter volume, 0.000000, mm^3
+# Measure SupraTentorial, SupraTentorialVol, Supratentorial volume, 71694.982048, mm^3
+# Measure SupraTentorialNotVent, SupraTentorialVolNotVent, Supratentorial volume, 71272.006028, mm^3
+# Measure EstimatedTotalIntraCranialVol, eTIV, Estimated Total Intracranial Volume, 1948106.000000, mm^3
+# NTableCols 10
+# TableCol  1 ColHeader StructName
+# TableCol  1 FieldName Structure Name
+# TableCol  1 Units     NA
+# TableCol  2 ColHeader NumVert
+# TableCol  2 FieldName Number of Vertices
+# TableCol  2 Units     unitless
+# TableCol  3 ColHeader SurfArea
+# TableCol  3 FieldName Surface Area
+# TableCol  3 Units     mm^2
+# TableCol  4 ColHeader GrayVol
+# TableCol  4 FieldName Gray Matter Volume
+# TableCol  4 Units     mm^3
+# TableCol  5 ColHeader ThickAvg 
+# TableCol  5 FieldName Average Thickness
+# TableCol  5 Units     mm
+# TableCol  6 ColHeader ThickStd
+# TableCol  6 FieldName Thickness StdDev
+# TableCol  6 Units     mm 
+# TableCol  7 ColHeader MeanCurv
+# TableCol  7 FieldName Integrated Rectified Mean Curvature
+# TableCol  7 Units     mm^-1
+# TableCol  8 ColHeader GausCurv 
+# TableCol  8 FieldName Integrated Rectified Gaussian Curvature
+# TableCol  8 Units     mm^-2
+# TableCol  9 ColHeader  FoldInd
+# TableCol  9 FieldName  Folding Index 
+# TableCol  9 Units      unitless 
+# TableCol 10 ColHeader CurvInd
+# TableCol 10 FieldName Intrinsic Curvature Index
+# TableCol 10 Units     unitless
+# ColHeaders StructName NumVert SurfArea GrayVol ThickAvg ThickStd MeanCurv GausCurv FoldInd CurvInd
+ACgG                                     4185    486    858  1.723 0.827     0.025     0.005       16     0.7
+OFC                                      5697    595   1581  2.162 0.584     0.021     0.006       32     1.2
+lat_PFC                                  6072    613   1591  2.153 0.422     0.027     0.008       37     1.4
+motor                                    7690    805   2447  2.494 0.360     0.021     0.004       19     1.1
+SII                                      5938    606   1244  1.761 0.383     0.026     0.007       25     1.3
+SPL                                      4764    476    894  1.753 0.252     0.022     0.006       15     0.9
+IPL                                      5211    518   1113  1.851 0.330     0.020     0.006       18     0.9
+PMC                                      4139    446    750  1.681 0.713     0.026     0.008       24     1.0
+MTL                                      1356    136    450  2.197 0.651     0.024     0.013        9     0.5
+TG                                        837     83    352  2.789 0.322     0.033     0.016        9     0.5
+ITC                                      8369    844   1904  2.034 0.354     0.022     0.005       25     1.3
+STSd                                     2660    266    832  2.391 0.268     0.021     0.006       13     0.5
+belt                                     2583    263    550  1.741 0.440     0.020     0.004       10     0.4
+floor_of_ls                              2110    210    395  1.894 0.484     0.017     0.004        2     0.3
+MT                                        544     58    101  1.523 0.097     0.008     0.001        0     0.0
+V2-V4                                   17123   1685   2975  1.663 0.367     0.030     0.010      144     5.0
+V1                                      11822   1210   1982  1.463 0.236     0.020     0.006       41     2.3
+LVPal                                     363     33     99  2.176 1.120     0.028     0.016        1     0.2
+MPal                                     4756    445    471  1.303 0.611     0.028     0.014       31     2.0
+Amy                                      1787    166    276  1.526 1.182     0.029     0.022       16     1.1
