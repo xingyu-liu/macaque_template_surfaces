@@ -14,8 +14,6 @@ Surfaces were derived from the white and pial surfaces provided with each volume
 
 The full FreeSurfer-style pipeline (sphere, cortical ribbon, curvature, thickness, etc.) was completed using **Banana**—a non-human primate MRI volume and surface preprocessing pipeline (in preparation).
 
-All CHARM atlases have been projected from volume space onto the surface. 
-
 ## Quality control
 
 ### NMT2Sym
@@ -26,6 +24,9 @@ Tissue segmentation
 Cortical surfaces and measures  
 ![Cortical surfaces and measures](sub-NMT2Sym/QC/test_cortical_surf_and_measures.png)
 
+CHARM projection on the surface
+![CHARM projection on the surface](sub-NMT2Sym/QC/CHARM_annot_qc.png)
+
 ### MEBRAINS
 
 Tissue segmentation 
@@ -33,6 +34,10 @@ Tissue segmentation
 
 Cortical surfaces and measures  
 ![Cortical surfaces and measures](sub-MEBRAINS/QC/test_cortical_surf_and_measures.png)
+
+CHARM projection on the surface
+![CHARM projection on the surface](sub-MEBRAINS/QC/CHARM_annot_qc.png)
+
 
 ## Repository structure
 
