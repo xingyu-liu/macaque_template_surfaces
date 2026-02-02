@@ -6,7 +6,7 @@ These surfaces support visualization and analysis in standard neuroimaging workf
 ## Templates
 
 - **NMT2Sym** — NMT v2 0.5 mm symmetric macaque template ([NMT v2](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/nonhuman/macaque_tempatl/template_nmtv2.html))
-- **MEBRAINS** — EBRAINS macaque template ([EBRAINS](https://search.kg.ebrains.eu/instances/de58ab47-b980-437c-8906-87f1123e14fb))
+- **MEBRAINS** — MEBRAINS macaque template ([MEBRAINS](https://search.kg.ebrains.eu/instances/de58ab47-b980-437c-8906-87f1123e14fb))
 
 ## Generation
 
@@ -56,4 +56,4 @@ macaque_surface/
 
 ## Citation and references
 
-When using these surfaces, please cite the respective template sources (NMT v2, MEBRAINS).
+When using these surfaces, please cite the respective template sources.
