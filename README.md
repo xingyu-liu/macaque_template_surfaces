@@ -5,7 +5,7 @@ These surfaces support visualization and analysis in standard neuroimaging workf
 
 ## Templates
 
-- **NMT2Sym** — NMT v2 0.5 mm symmetric macaque template ([NMT v2](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/nonhuman/macaque_tempatl/template_nmtv2.html))
+- **NMT2** — NMT v2 0.5 mm symmetric (**Sym**) and asymmetric (**Asym**) macaque template ([NMT v2](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/nonhuman/macaque_tempatl/template_nmtv2.html))
 - **MEBRAINS** — MEBRAINS macaque template ([MEBRAINS](https://search.kg.ebrains.eu/instances/de58ab47-b980-437c-8906-87f1123e14fb))
 
 ## Generation
@@ -27,9 +27,20 @@ Cortical surfaces and measures
 CHARM projection on the surface
 ![CHARM projection on the surface](sub-NMT2Sym/QC/CHARM_annot_qc.png)
 
+### NMT2Asym
+
+Tissue segmentation
+![Tissue segmentation](sub-NMT2Asym/QC/test_surf_recon_tissue_seg.png)
+
+Cortical surfaces and measures  
+![Cortical surfaces and measures](sub-NMT2Asym/QC/test_cortical_surf_and_measures.png)
+
+CHARM projection on the surface
+![CHARM projection on the surface](sub-NMT2Asym/QC/CHARM_annot_qc.png)
+
 ### MEBRAINS
 
-Tissue segmentation 
+Tissue segmentation
 ![Tissue segmentation](sub-MEBRAINS/QC/test_surf_recon_tissue_seg.png)
 
 Cortical surfaces and measures  
@@ -42,7 +53,7 @@ CHARM projection on the surface
 ## Repository structure
 
 ```
-macaque_surface/
+./
 ├── sub-xxx/
 │   ├── mri/        # Volumetric segmentations and transforms
 │   ├── surf/       # Cortical surface meshes (white, pial, inflated, etc.)

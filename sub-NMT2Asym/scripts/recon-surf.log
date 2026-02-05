@@ -1,0 +1,565 @@
+
+================================================================================
+FastSurfer Recon Pipeline Log (Single Stage Test)
+Subject: sub-NMT2Asym
+Run Step: s01
+Start: 2026-02-04 21:33:41.142400
+================================================================================
+
+2026-02-04 21:33:41 - fastsurfer_surfrecon.stages.volume_prep - INFO - Skipping s01 volume_prep (already complete)
+
+================================================================================
+FastSurfer Recon Pipeline Log (Single Stage Test)
+Subject: sub-NMT2Asym
+Run Step: s02
+Start: 2026-02-04 21:33:41.142747
+================================================================================
+
+2026-02-04 21:33:41 - fastsurfer_surfrecon.stages.bias_correction - INFO - Starting s02 bias_correction
+2026-02-04 21:33:41 - fastsurfer_surfrecon.stages.bias_correction - INFO - Starting s02 bias_correction
+2026-02-04 21:33:41 - fastsurfer_surfrecon.stages.s02_bias_correction - INFO - Running N4 bias field correction...
+2026-02-04 21:33:41 - fastsurfer_surfrecon.stages.s02_bias_correction - INFO - Running N4 bias field correction...
+2026-02-04 21:33:41 - fastsurfer_surfrecon.processing.bias_correction - INFO - Reading input: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/orig.mgz
+2026-02-04 21:33:41 - fastsurfer_surfrecon.processing.bias_correction - INFO - Reading input: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/orig.mgz
+2026-02-04 21:33:41 - fastsurfer_surfrecon.processing.bias_correction - INFO - Reading mask: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/mask.mgz
+2026-02-04 21:33:41 - fastsurfer_surfrecon.processing.bias_correction - INFO - Reading mask: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/mask.mgz
+2026-02-04 21:33:41 - fastsurfer_surfrecon.processing.bias_correction - INFO - Running N4 bias correction...
+2026-02-04 21:33:41 - fastsurfer_surfrecon.processing.bias_correction - INFO - Running N4 bias correction...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.bias_correction - INFO - Normalizing using aseg segmentation...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.bias_correction - INFO - Normalizing using aseg segmentation...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.bias_correction - INFO - Source WM intensity: 227.30
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.bias_correction - INFO - Source WM intensity: 227.30
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.bias_correction - INFO - Source BG intensity: 0.00
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.bias_correction - INFO - Source BG intensity: 0.00
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.bias_correction - INFO - Converting to UCHAR...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.bias_correction - INFO - Converting to UCHAR...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.bias_correction - INFO - Writing output: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/orig_nu.mgz
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.bias_correction - INFO - Writing output: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/orig_nu.mgz
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.bias_correction - INFO - Completed s02 bias_correction in 2.1s
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.bias_correction - INFO - Completed s02 bias_correction in 2.1s
+
+================================================================================
+FastSurfer Recon Pipeline Log (Single Stage Test)
+Subject: sub-NMT2Asym
+Run Step: s03
+Start: 2026-02-04 21:33:43.252773
+================================================================================
+
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.mask_aseg - INFO - Starting s03 mask_aseg
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.mask_aseg - INFO - Starting s03 mask_aseg
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.mask_aseg - INFO - Starting s03 mask_aseg
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s03_mask_aseg - INFO - Creating aseg.presurf.mgz from aseg.auto_noCCseg.mgz
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s03_mask_aseg - INFO - Creating aseg.presurf.mgz from aseg.auto_noCCseg.mgz
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s03_mask_aseg - INFO - Creating aseg.presurf.mgz from aseg.auto_noCCseg.mgz
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s03_mask_aseg - INFO - Applying mask /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/mask.mgz to aseg
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s03_mask_aseg - INFO - Applying mask /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/mask.mgz to aseg
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s03_mask_aseg - INFO - Applying mask /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/mask.mgz to aseg
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.mask_aseg - INFO - Completed s03 mask_aseg in 0.1s
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.mask_aseg - INFO - Completed s03 mask_aseg in 0.1s
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.mask_aseg - INFO - Completed s03 mask_aseg in 0.1s
+
+================================================================================
+FastSurfer Recon Pipeline Log (Single Stage Test)
+Subject: sub-NMT2Asym
+Run Step: s04
+Start: 2026-02-04 21:33:43.335341
+================================================================================
+
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.talairach - INFO - Starting s04 talairach
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.talairach - INFO - Starting s04 talairach
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.talairach - INFO - Starting s04 talairach
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.talairach - INFO - Starting s04 talairach
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s04_talairach - INFO - Skipping Talairach registration (--no-talairach flag set)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s04_talairach - INFO - Skipping Talairach registration (--no-talairach flag set)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s04_talairach - INFO - Skipping Talairach registration (--no-talairach flag set)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s04_talairach - INFO - Skipping Talairach registration (--no-talairach flag set)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s04_talairach - INFO - NOTE: eTIV (estimated total intracranial volume) will not be calculated.
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s04_talairach - INFO - NOTE: eTIV (estimated total intracranial volume) will not be calculated.
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s04_talairach - INFO - NOTE: eTIV (estimated total intracranial volume) will not be calculated.
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s04_talairach - INFO - NOTE: eTIV (estimated total intracranial volume) will not be calculated.
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s04_talairach - INFO -       This does not affect surface reconstruction or morphometry.
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s04_talairach - INFO -       This does not affect surface reconstruction or morphometry.
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s04_talairach - INFO -       This does not affect surface reconstruction or morphometry.
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s04_talairach - INFO -       This does not affect surface reconstruction or morphometry.
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s04_talairach - INFO - Copying orig_nu.mgz to nu.mgz (no Talairach transform)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s04_talairach - INFO - Copying orig_nu.mgz to nu.mgz (no Talairach transform)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s04_talairach - INFO - Copying orig_nu.mgz to nu.mgz (no Talairach transform)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s04_talairach - INFO - Copying orig_nu.mgz to nu.mgz (no Talairach transform)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s04_talairach - INFO - Creating dummy identity talairach.xfm for compatibility
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s04_talairach - INFO - Creating dummy identity talairach.xfm for compatibility
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s04_talairach - INFO - Creating dummy identity talairach.xfm for compatibility
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s04_talairach - INFO - Creating dummy identity talairach.xfm for compatibility
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.talairach - INFO - Completed s04 talairach in 0.0s
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.talairach - INFO - Completed s04 talairach in 0.0s
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.talairach - INFO - Completed s04 talairach in 0.0s
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.talairach - INFO - Completed s04 talairach in 0.0s
+
+================================================================================
+FastSurfer Recon Pipeline Log (Single Stage Test)
+Subject: sub-NMT2Asym
+Run Step: s05
+Start: 2026-02-04 21:33:43.337114
+================================================================================
+
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.norm_t1 - INFO - Starting s05 norm_t1
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.norm_t1 - INFO - Starting s05 norm_t1
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.norm_t1 - INFO - Starting s05 norm_t1
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.norm_t1 - INFO - Starting s05 norm_t1
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.norm_t1 - INFO - Starting s05 norm_t1
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s05_norm_t1 - INFO - Creating norm.mgz (masked nu.mgz)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s05_norm_t1 - INFO - Creating norm.mgz (masked nu.mgz)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s05_norm_t1 - INFO - Creating norm.mgz (masked nu.mgz)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s05_norm_t1 - INFO - Creating norm.mgz (masked nu.mgz)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s05_norm_t1 - INFO - Creating norm.mgz (masked nu.mgz)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s05_norm_t1 - INFO - Linking T1.mgz to nu.mgz (skipping normalization, keeping skull)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s05_norm_t1 - INFO - Linking T1.mgz to nu.mgz (skipping normalization, keeping skull)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s05_norm_t1 - INFO - Linking T1.mgz to nu.mgz (skipping normalization, keeping skull)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s05_norm_t1 - INFO - Linking T1.mgz to nu.mgz (skipping normalization, keeping skull)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s05_norm_t1 - INFO - Linking T1.mgz to nu.mgz (skipping normalization, keeping skull)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s05_norm_t1 - INFO - Linking brainmask.mgz to norm.mgz
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s05_norm_t1 - INFO - Linking brainmask.mgz to norm.mgz
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s05_norm_t1 - INFO - Linking brainmask.mgz to norm.mgz
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s05_norm_t1 - INFO - Linking brainmask.mgz to norm.mgz
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s05_norm_t1 - INFO - Linking brainmask.mgz to norm.mgz
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.norm_t1 - INFO - Completed s05 norm_t1 in 0.1s
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.norm_t1 - INFO - Completed s05 norm_t1 in 0.1s
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.norm_t1 - INFO - Completed s05 norm_t1 in 0.1s
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.norm_t1 - INFO - Completed s05 norm_t1 in 0.1s
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.norm_t1 - INFO - Completed s05 norm_t1 in 0.1s
+
+================================================================================
+FastSurfer Recon Pipeline Log (Single Stage Test)
+Subject: sub-NMT2Asym
+Run Step: s06
+Start: 2026-02-04 21:33:43.423519
+================================================================================
+
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.cc_segmentation - INFO - Starting s06 cc_segmentation
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.cc_segmentation - INFO - Starting s06 cc_segmentation
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.cc_segmentation - INFO - Starting s06 cc_segmentation
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.cc_segmentation - INFO - Starting s06 cc_segmentation
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.cc_segmentation - INFO - Starting s06 cc_segmentation
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.cc_segmentation - INFO - Starting s06 cc_segmentation
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s06_cc_segmentation - INFO - Skipping CC segmentation (--no-cc flag set)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s06_cc_segmentation - INFO - Skipping CC segmentation (--no-cc flag set)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s06_cc_segmentation - INFO - Skipping CC segmentation (--no-cc flag set)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s06_cc_segmentation - INFO - Skipping CC segmentation (--no-cc flag set)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s06_cc_segmentation - INFO - Skipping CC segmentation (--no-cc flag set)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s06_cc_segmentation - INFO - Skipping CC segmentation (--no-cc flag set)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s06_cc_segmentation - INFO - Copying aseg.auto_noCCseg.mgz to aseg.auto.mgz (no CC)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s06_cc_segmentation - INFO - Copying aseg.auto_noCCseg.mgz to aseg.auto.mgz (no CC)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s06_cc_segmentation - INFO - Copying aseg.auto_noCCseg.mgz to aseg.auto.mgz (no CC)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s06_cc_segmentation - INFO - Copying aseg.auto_noCCseg.mgz to aseg.auto.mgz (no CC)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s06_cc_segmentation - INFO - Copying aseg.auto_noCCseg.mgz to aseg.auto.mgz (no CC)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s06_cc_segmentation - INFO - Copying aseg.auto_noCCseg.mgz to aseg.auto.mgz (no CC)
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.cc_segmentation - INFO - Completed s06 cc_segmentation in 0.0s
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.cc_segmentation - INFO - Completed s06 cc_segmentation in 0.0s
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.cc_segmentation - INFO - Completed s06 cc_segmentation in 0.0s
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.cc_segmentation - INFO - Completed s06 cc_segmentation in 0.0s
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.cc_segmentation - INFO - Completed s06 cc_segmentation in 0.0s
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.cc_segmentation - INFO - Completed s06 cc_segmentation in 0.0s
+
+================================================================================
+FastSurfer Recon Pipeline Log (Single Stage Test)
+Subject: sub-NMT2Asym
+Run Step: s07
+Start: 2026-02-04 21:33:43.424214
+================================================================================
+
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.wm_filled - INFO - Starting s07 wm_filled
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.wm_filled - INFO - Starting s07 wm_filled
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.wm_filled - INFO - Starting s07 wm_filled
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.wm_filled - INFO - Starting s07 wm_filled
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.wm_filled - INFO - Starting s07 wm_filled
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.wm_filled - INFO - Starting s07 wm_filled
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.wm_filled - INFO - Starting s07 wm_filled
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating wm.mgz from aseg...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating wm.mgz from aseg...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating wm.mgz from aseg...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating wm.mgz from aseg...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating wm.mgz from aseg...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating wm.mgz from aseg...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating wm.mgz from aseg...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Loading LUT: /home/star/github/brainana/src/fastsurfer_nn/atlas/atlas-ARM2/ARM2_ColorLUT.tsv
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Loading LUT: /home/star/github/brainana/src/fastsurfer_nn/atlas/atlas-ARM2/ARM2_ColorLUT.tsv
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Loading LUT: /home/star/github/brainana/src/fastsurfer_nn/atlas/atlas-ARM2/ARM2_ColorLUT.tsv
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Loading LUT: /home/star/github/brainana/src/fastsurfer_nn/atlas/atlas-ARM2/ARM2_ColorLUT.tsv
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Loading LUT: /home/star/github/brainana/src/fastsurfer_nn/atlas/atlas-ARM2/ARM2_ColorLUT.tsv
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Loading LUT: /home/star/github/brainana/src/fastsurfer_nn/atlas/atlas-ARM2/ARM2_ColorLUT.tsv
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Loading LUT: /home/star/github/brainana/src/fastsurfer_nn/atlas/atlas-ARM2/ARM2_ColorLUT.tsv
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Loading segmentation: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/aseg.auto.mgz
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Loading segmentation: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/aseg.auto.mgz
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Loading segmentation: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/aseg.auto.mgz
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Loading segmentation: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/aseg.auto.mgz
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Loading segmentation: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/aseg.auto.mgz
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Loading segmentation: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/aseg.auto.mgz
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Loading segmentation: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/aseg.auto.mgz
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Creating WM segmentation...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Creating WM segmentation...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Creating WM segmentation...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Creating WM segmentation...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Creating WM segmentation...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Creating WM segmentation...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Creating WM segmentation...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - WM segmentation: BG=381215, WM(110)=236362, Vent(250)=0
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - WM segmentation: BG=381215, WM(110)=236362, Vent(250)=0
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - WM segmentation: BG=381215, WM(110)=236362, Vent(250)=0
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - WM segmentation: BG=381215, WM(110)=236362, Vent(250)=0
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - WM segmentation: BG=381215, WM(110)=236362, Vent(250)=0
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - WM segmentation: BG=381215, WM(110)=236362, Vent(250)=0
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - WM segmentation: BG=381215, WM(110)=236362, Vent(250)=0
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Saved: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/wm.mgz
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Saved: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/wm.mgz
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Saved: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/wm.mgz
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Saved: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/wm.mgz
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Saved: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/wm.mgz
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Saved: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/wm.mgz
+2026-02-04 21:33:43 - fastsurfer_surfrecon.processing.segmentation - INFO - Saved: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/wm.mgz
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating filled.mgz...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating filled.mgz...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating filled.mgz...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating filled.mgz...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating filled.mgz...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating filled.mgz...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating filled.mgz...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating brain.mgz (normalized norm.mgz)...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating brain.mgz (normalized norm.mgz)...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating brain.mgz (normalized norm.mgz)...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating brain.mgz (normalized norm.mgz)...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating brain.mgz (normalized norm.mgz)...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating brain.mgz (normalized norm.mgz)...
+2026-02-04 21:33:43 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating brain.mgz (normalized norm.mgz)...
+2026-02-04 21:34:04 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating brain.finalsurfs.mgz (masked brain.mgz)...
+2026-02-04 21:34:04 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating brain.finalsurfs.mgz (masked brain.mgz)...
+2026-02-04 21:34:04 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating brain.finalsurfs.mgz (masked brain.mgz)...
+2026-02-04 21:34:04 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating brain.finalsurfs.mgz (masked brain.mgz)...
+2026-02-04 21:34:04 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating brain.finalsurfs.mgz (masked brain.mgz)...
+2026-02-04 21:34:04 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating brain.finalsurfs.mgz (masked brain.mgz)...
+2026-02-04 21:34:04 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating brain.finalsurfs.mgz (masked brain.mgz)...
+2026-02-04 21:34:04 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating filled.mgz from wm.mgz...
+2026-02-04 21:34:04 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating filled.mgz from wm.mgz...
+2026-02-04 21:34:04 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating filled.mgz from wm.mgz...
+2026-02-04 21:34:04 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating filled.mgz from wm.mgz...
+2026-02-04 21:34:04 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating filled.mgz from wm.mgz...
+2026-02-04 21:34:04 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating filled.mgz from wm.mgz...
+2026-02-04 21:34:04 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Creating filled.mgz from wm.mgz...
+2026-02-04 21:34:04 - fastsurfer_surfrecon.stages.s07_wm_filled - WARNING - ponscc.cut.log not found at /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/scripts/ponscc.cut.log (may not be available for non-human data)
+2026-02-04 21:34:04 - fastsurfer_surfrecon.stages.s07_wm_filled - WARNING - ponscc.cut.log not found at /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/scripts/ponscc.cut.log (may not be available for non-human data)
+2026-02-04 21:34:04 - fastsurfer_surfrecon.stages.s07_wm_filled - WARNING - ponscc.cut.log not found at /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/scripts/ponscc.cut.log (may not be available for non-human data)
+2026-02-04 21:34:04 - fastsurfer_surfrecon.stages.s07_wm_filled - WARNING - ponscc.cut.log not found at /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/scripts/ponscc.cut.log (may not be available for non-human data)
+2026-02-04 21:34:04 - fastsurfer_surfrecon.stages.s07_wm_filled - WARNING - ponscc.cut.log not found at /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/scripts/ponscc.cut.log (may not be available for non-human data)
+2026-02-04 21:34:04 - fastsurfer_surfrecon.stages.s07_wm_filled - WARNING - ponscc.cut.log not found at /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/scripts/ponscc.cut.log (may not be available for non-human data)
+2026-02-04 21:34:04 - fastsurfer_surfrecon.stages.s07_wm_filled - WARNING - ponscc.cut.log not found at /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/scripts/ponscc.cut.log (may not be available for non-human data)
+2026-02-04 21:34:07 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Copying filled.mgz to filled.auto.mgz
+2026-02-04 21:34:07 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Copying filled.mgz to filled.auto.mgz
+2026-02-04 21:34:07 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Copying filled.mgz to filled.auto.mgz
+2026-02-04 21:34:07 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Copying filled.mgz to filled.auto.mgz
+2026-02-04 21:34:07 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Copying filled.mgz to filled.auto.mgz
+2026-02-04 21:34:07 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Copying filled.mgz to filled.auto.mgz
+2026-02-04 21:34:07 - fastsurfer_surfrecon.stages.s07_wm_filled - INFO - Copying filled.mgz to filled.auto.mgz
+2026-02-04 21:34:07 - fastsurfer_surfrecon.stages.wm_filled - INFO - Completed s07 wm_filled in 23.7s
+2026-02-04 21:34:07 - fastsurfer_surfrecon.stages.wm_filled - INFO - Completed s07 wm_filled in 23.7s
+2026-02-04 21:34:07 - fastsurfer_surfrecon.stages.wm_filled - INFO - Completed s07 wm_filled in 23.7s
+2026-02-04 21:34:07 - fastsurfer_surfrecon.stages.wm_filled - INFO - Completed s07 wm_filled in 23.7s
+2026-02-04 21:34:07 - fastsurfer_surfrecon.stages.wm_filled - INFO - Completed s07 wm_filled in 23.7s
+2026-02-04 21:34:07 - fastsurfer_surfrecon.stages.wm_filled - INFO - Completed s07 wm_filled in 23.7s
+2026-02-04 21:34:07 - fastsurfer_surfrecon.stages.wm_filled - INFO - Completed s07 wm_filled in 23.7s
+
+================================================================================
+FastSurfer Recon Pipeline Log (Single Stage Test)
+Subject: sub-NMT2Asym
+Run Step: s11
+Start: 2026-02-04 21:41:16.717690
+================================================================================
+
+2026-02-04 21:41:16 - fastsurfer_surfrecon.stages.spherical_projection - INFO - Starting s11 spherical_projection (lh)
+2026-02-04 21:41:16 - fastsurfer_surfrecon.stages.spherical_projection - INFO - Starting s11 spherical_projection (rh)
+2026-02-04 21:41:16 - fastsurfer_surfrecon.stages.s11_spherical_projection - INFO - Using spectral projection for lh
+2026-02-04 21:41:16 - fastsurfer_surfrecon.stages.s11_spherical_projection - INFO - Using spectral projection for rh
+2026-02-04 21:41:16 - fastsurfer_surfrecon.processing.spherical - INFO - Loading surface: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/surf/rh.smoothwm.nofix
+2026-02-04 21:41:16 - fastsurfer_surfrecon.processing.spherical - INFO - Loading surface: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/surf/lh.smoothwm.nofix
+2026-02-04 21:41:16 - fastsurfer_surfrecon.processing.spherical - INFO - Projecting to sphere...
+2026-02-04 21:41:16 - fastsurfer_surfrecon.processing.spherical - INFO - Computing Laplace-Beltrami eigenfunctions...
+2026-02-04 21:41:16 - fastsurfer_surfrecon.processing.spherical - INFO - Projecting to sphere...
+2026-02-04 21:41:16 - fastsurfer_surfrecon.processing.spherical - INFO - Computing Laplace-Beltrami eigenfunctions...
+2026-02-04 21:41:18 - fastsurfer_surfrecon.processing.spherical - INFO - Applying mean curvature flow...
+2026-02-04 21:41:18 - fastsurfer_surfrecon.processing.spherical - INFO - Applying mean curvature flow...
+2026-02-04 21:41:19 - fastsurfer_surfrecon.processing.spherical - INFO - Projecting to unit sphere...
+2026-02-04 21:41:20 - fastsurfer_surfrecon.processing.spherical - INFO - Flipped triangle area: 0.00%
+2026-02-04 21:41:20 - fastsurfer_surfrecon.processing.spherical - INFO - Saved: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/surf/lh.qsphere.nofix
+2026-02-04 21:41:20 - fastsurfer_surfrecon.stages.spherical_projection - INFO - Completed s11 spherical_projection (lh) in 3.3s
+2026-02-04 21:41:20 - fastsurfer_surfrecon.processing.spherical - INFO - Projecting to unit sphere...
+2026-02-04 21:41:20 - fastsurfer_surfrecon.processing.spherical - INFO - Flipped triangle area: 0.00%
+2026-02-04 21:41:20 - fastsurfer_surfrecon.processing.spherical - INFO - Saved: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/surf/rh.qsphere.nofix
+2026-02-04 21:41:20 - fastsurfer_surfrecon.stages.spherical_projection - INFO - Completed s11 spherical_projection (rh) in 3.3s
+
+================================================================================
+FastSurfer Recon Pipeline Log (Single Stage Test)
+Subject: sub-NMT2Asym
+Run Step: s14
+Start: 2026-02-04 21:42:00.557764
+================================================================================
+
+2026-02-04 21:42:00 - fastsurfer_surfrecon.stages.parcellation - INFO - Starting s14 parcellation (lh)
+2026-02-04 21:42:00 - fastsurfer_surfrecon.stages.parcellation - INFO - Starting s14 parcellation (rh)
+2026-02-04 21:42:00 - fastsurfer_surfrecon.stages.s14_parcellation - INFO - Creating lh.cortex.label...
+2026-02-04 21:42:00 - fastsurfer_surfrecon.stages.s14_parcellation - INFO - Creating rh.cortex.label...
+2026-02-04 21:42:12 - fastsurfer_surfrecon.stages.s14_parcellation - INFO - Mapping parcellation to rh surface...
+2026-02-04 21:42:12 - fastsurfer_surfrecon.stages.s14_parcellation - INFO - Loading surface: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/surf/rh.white.preaparc
+2026-02-04 21:42:12 - fastsurfer_surfrecon.processing.parcellation - INFO - Loading segmentation: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/aparc.ARM2atlas+aseg.orig.mgz
+2026-02-04 21:42:12 - fastsurfer_surfrecon.processing.parcellation - INFO - Loading cortex label: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/label/rh.cortex.label
+2026-02-04 21:42:12 - fastsurfer_surfrecon.processing.parcellation - INFO - Sampling volume to surface...
+2026-02-04 21:42:12 - fastsurfer_surfrecon.stages.s14_parcellation - INFO - Mapping parcellation to lh surface...
+2026-02-04 21:42:12 - fastsurfer_surfrecon.stages.s14_parcellation - INFO - Loading surface: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/surf/lh.white.preaparc
+2026-02-04 21:42:12 - fastsurfer_surfrecon.processing.parcellation - INFO - Loading segmentation: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/mri/aparc.ARM2atlas+aseg.orig.mgz
+2026-02-04 21:42:12 - fastsurfer_surfrecon.processing.parcellation - INFO - Loading cortex label: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/label/lh.cortex.label
+2026-02-04 21:42:12 - fastsurfer_surfrecon.processing.parcellation - INFO - Sampling volume to surface...
+2026-02-04 21:42:12 - fastsurfer_surfrecon.processing.parcellation - INFO - Searching 746 zero samples within radius 2.0
+2026-02-04 21:42:12 - fastsurfer_surfrecon.processing.parcellation - INFO - Translating labels...
+2026-02-04 21:42:12 - fastsurfer_surfrecon.processing.parcellation - INFO - Finding label islands...
+2026-02-04 21:42:12 - fastsurfer_surfrecon.processing.parcellation - INFO - Smoothing parcellation...
+2026-02-04 21:42:12 - fastsurfer_surfrecon.processing.parcellation - INFO - Searching 781 zero samples within radius 2.0
+2026-02-04 21:42:12 - fastsurfer_surfrecon.processing.parcellation - INFO - Translating labels...
+2026-02-04 21:42:12 - fastsurfer_surfrecon.processing.parcellation - INFO - Finding label islands...
+2026-02-04 21:42:12 - fastsurfer_surfrecon.processing.parcellation - INFO - Saved: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/label/rh.aparc.ARM2atlas.mapped.prefix.annot
+2026-02-04 21:42:12 - fastsurfer_surfrecon.processing.parcellation - INFO - Loading annotation: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/label/rh.aparc.ARM2atlas.mapped.prefix.annot
+2026-02-04 21:42:12 - fastsurfer_surfrecon.processing.parcellation - INFO - Loading cortex label: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/label/rh.cortex.label
+2026-02-04 21:42:12 - fastsurfer_surfrecon.processing.parcellation - INFO - Smoothing parcellation...
+2026-02-04 21:42:12 - fastsurfer_surfrecon.processing.parcellation - INFO - Smoothing parcellation...
+2026-02-04 21:42:13 - fastsurfer_surfrecon.processing.parcellation - INFO - Saved: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/label/lh.aparc.ARM2atlas.mapped.prefix.annot
+2026-02-04 21:42:13 - fastsurfer_surfrecon.processing.parcellation - INFO - Loading annotation: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/label/lh.aparc.ARM2atlas.mapped.prefix.annot
+2026-02-04 21:42:13 - fastsurfer_surfrecon.processing.parcellation - INFO - Saved: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/label/rh.aparc.ARM2atlas.mapped.annot
+2026-02-04 21:42:13 - fastsurfer_surfrecon.stages.s14_parcellation - INFO - Applying post-processing adjustments for rh (visualization smoothing/inflation)...
+2026-02-04 21:42:13 - fastsurfer_surfrecon.stages.s14_parcellation - INFO - Re-smoothing rh.smoothwm with 5 iterations (visualization smoothing)...
+2026-02-04 21:42:13 - fastsurfer_surfrecon.processing.parcellation - INFO - Loading cortex label: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/label/lh.cortex.label
+2026-02-04 21:42:13 - fastsurfer_surfrecon.processing.parcellation - INFO - Smoothing parcellation...
+2026-02-04 21:42:13 - fastsurfer_surfrecon.processing.parcellation - INFO - Saved: /home/star/github/atlas/macaque/macaque_template_surfaces/sub-NMT2Asym/label/lh.aparc.ARM2atlas.mapped.annot
+2026-02-04 21:42:13 - fastsurfer_surfrecon.stages.s14_parcellation - INFO - Applying post-processing adjustments for lh (visualization smoothing/inflation)...
+2026-02-04 21:42:13 - fastsurfer_surfrecon.stages.s14_parcellation - INFO - Re-smoothing lh.smoothwm with 5 iterations (visualization smoothing)...
+2026-02-04 21:42:13 - fastsurfer_surfrecon.stages.s14_parcellation - INFO - Replaced rh.smoothwm with adjusted version (5 iterations)
+2026-02-04 21:42:13 - fastsurfer_surfrecon.stages.s14_parcellation - INFO - Re-smoothing rh.smoothwm with 50 iterations (inflation input only)...
+2026-02-04 21:42:13 - fastsurfer_surfrecon.stages.s14_parcellation - INFO - Replaced lh.smoothwm with adjusted version (5 iterations)
+2026-02-04 21:42:13 - fastsurfer_surfrecon.stages.s14_parcellation - INFO - Re-smoothing lh.smoothwm with 50 iterations (inflation input only)...
+2026-02-04 21:42:13 - fastsurfer_surfrecon.stages.s14_parcellation - INFO - Re-inflating rh.inflated with 3 iterations (visualization inflation)...
+2026-02-04 21:42:13 - fastsurfer_surfrecon.stages.s14_parcellation - INFO - Re-inflating lh.inflated with 3 iterations (visualization inflation)...
+2026-02-04 21:42:15 - fastsurfer_surfrecon.stages.s14_parcellation - INFO - Replaced lh.inflated with adjusted version (3 iterations)
+2026-02-04 21:42:15 - fastsurfer_surfrecon.stages.parcellation - INFO - Completed s14 parcellation (lh) in 14.9s
+2026-02-04 21:42:15 - fastsurfer_surfrecon.stages.s14_parcellation - INFO - Replaced rh.inflated with adjusted version (3 iterations)
+2026-02-04 21:42:15 - fastsurfer_surfrecon.stages.parcellation - INFO - Completed s14 parcellation (rh) in 14.9s
+
+================================================================================
+FastSurfer Recon Pipeline Log (Single Stage Test)
+Subject: sub-NMT2Asym
+Run Step: s16
+Start: 2026-02-04 21:42:15.508961
+================================================================================
+
+2026-02-04 21:42:15 - fastsurfer_surfrecon.stages.compute_morphometry - INFO - Starting s16 compute_morphometry (lh)
+2026-02-04 21:42:15 - fastsurfer_surfrecon.stages.compute_morphometry - INFO - Starting s16 compute_morphometry (lh)
+2026-02-04 21:42:15 - fastsurfer_surfrecon.stages.compute_morphometry - INFO - Starting s16 compute_morphometry (rh)
+2026-02-04 21:42:15 - fastsurfer_surfrecon.stages.compute_morphometry - INFO - Starting s16 compute_morphometry (rh)
+2026-02-04 21:42:15 - fastsurfer_surfrecon.stages.s16_compute_morphometry - INFO - Computing morphometry for lh...
+2026-02-04 21:42:15 - fastsurfer_surfrecon.stages.s16_compute_morphometry - INFO - Computing morphometry for lh...
+2026-02-04 21:42:15 - fastsurfer_surfrecon.stages.s16_compute_morphometry - INFO - Computing morphometry for rh...
+2026-02-04 21:42:15 - fastsurfer_surfrecon.stages.s16_compute_morphometry - INFO - Computing morphometry for rh...
+2026-02-04 21:42:18 - fastsurfer_surfrecon.stages.compute_morphometry - INFO - Completed s16 compute_morphometry (lh) in 2.9s
+2026-02-04 21:42:18 - fastsurfer_surfrecon.stages.compute_morphometry - INFO - Completed s16 compute_morphometry (lh) in 2.9s
+2026-02-04 21:42:18 - fastsurfer_surfrecon.stages.compute_morphometry - INFO - Completed s16 compute_morphometry (rh) in 3.0s
+2026-02-04 21:42:18 - fastsurfer_surfrecon.stages.compute_morphometry - INFO - Completed s16 compute_morphometry (rh) in 3.0s
+
+================================================================================
+FastSurfer Recon Pipeline Log (Single Stage Test)
+Subject: sub-NMT2Asym
+Run Step: s17
+Start: 2026-02-04 21:42:18.480302
+================================================================================
+
+2026-02-04 21:42:18 - fastsurfer_surfrecon.stages.registration - INFO - Skipping s17 registration (lh) (disabled)
+2026-02-04 21:42:18 - fastsurfer_surfrecon.stages.registration - INFO - Skipping s17 registration (lh) (disabled)
+2026-02-04 21:42:18 - fastsurfer_surfrecon.stages.registration - INFO - Skipping s17 registration (rh) (disabled)
+2026-02-04 21:42:18 - fastsurfer_surfrecon.stages.registration - INFO - Skipping s17 registration (lh) (disabled)
+2026-02-04 21:42:18 - fastsurfer_surfrecon.stages.registration - INFO - Skipping s17 registration (rh) (disabled)
+2026-02-04 21:42:18 - fastsurfer_surfrecon.stages.registration - INFO - Skipping s17 registration (rh) (disabled)
+
+================================================================================
+FastSurfer Recon Pipeline Log (Single Stage Test)
+Subject: sub-NMT2Asym
+Run Step: s18
+Start: 2026-02-04 21:42:18.481857
+================================================================================
+
+2026-02-04 21:42:18 - fastsurfer_surfrecon.stages.cortical_ribbon - INFO - Starting s18 cortical_ribbon
+2026-02-04 21:42:18 - fastsurfer_surfrecon.stages.cortical_ribbon - INFO - Starting s18 cortical_ribbon
+2026-02-04 21:42:18 - fastsurfer_surfrecon.stages.cortical_ribbon - INFO - Starting s18 cortical_ribbon
+2026-02-04 21:42:18 - fastsurfer_surfrecon.stages.cortical_ribbon - INFO - Starting s18 cortical_ribbon
+2026-02-04 21:42:18 - fastsurfer_surfrecon.stages.s18_cortical_ribbon - INFO - Creating cortical ribbon...
+2026-02-04 21:42:18 - fastsurfer_surfrecon.stages.s18_cortical_ribbon - INFO - Creating cortical ribbon...
+2026-02-04 21:42:18 - fastsurfer_surfrecon.stages.s18_cortical_ribbon - INFO - Creating cortical ribbon...
+2026-02-04 21:42:18 - fastsurfer_surfrecon.stages.s18_cortical_ribbon - INFO - Creating cortical ribbon...
+2026-02-04 21:42:43 - fastsurfer_surfrecon.stages.cortical_ribbon - INFO - Completed s18 cortical_ribbon in 25.4s
+2026-02-04 21:42:43 - fastsurfer_surfrecon.stages.cortical_ribbon - INFO - Completed s18 cortical_ribbon in 25.4s
+2026-02-04 21:42:43 - fastsurfer_surfrecon.stages.cortical_ribbon - INFO - Completed s18 cortical_ribbon in 25.4s
+2026-02-04 21:42:43 - fastsurfer_surfrecon.stages.cortical_ribbon - INFO - Completed s18 cortical_ribbon in 25.4s
+
+================================================================================
+FastSurfer Recon Pipeline Log (Single Stage Test)
+Subject: sub-NMT2Asym
+Run Step: s19
+Start: 2026-02-04 21:42:43.905145
+================================================================================
+
+2026-02-04 21:42:43 - fastsurfer_surfrecon.stages.statistics - INFO - Starting s19 statistics (lh)
+2026-02-04 21:42:43 - fastsurfer_surfrecon.stages.statistics - INFO - Starting s19 statistics (lh)
+2026-02-04 21:42:43 - fastsurfer_surfrecon.stages.statistics - INFO - Starting s19 statistics (lh)
+2026-02-04 21:42:43 - fastsurfer_surfrecon.stages.statistics - INFO - Starting s19 statistics (lh)
+2026-02-04 21:42:43 - fastsurfer_surfrecon.stages.statistics - INFO - Starting s19 statistics (lh)
+2026-02-04 21:42:43 - fastsurfer_surfrecon.stages.s19_statistics - INFO - Computing curvature statistics for lh...
+2026-02-04 21:42:43 - fastsurfer_surfrecon.stages.s19_statistics - INFO - Computing curvature statistics for lh...
+2026-02-04 21:42:43 - fastsurfer_surfrecon.stages.s19_statistics - INFO - Computing curvature statistics for lh...
+2026-02-04 21:42:43 - fastsurfer_surfrecon.stages.s19_statistics - INFO - Computing curvature statistics for lh...
+2026-02-04 21:42:43 - fastsurfer_surfrecon.stages.s19_statistics - INFO - Computing curvature statistics for lh...
+2026-02-04 21:42:47 - fastsurfer_surfrecon.stages.s19_statistics - INFO - Computing anatomical stats for lh...
+2026-02-04 21:42:47 - fastsurfer_surfrecon.stages.s19_statistics - INFO - Computing anatomical stats for lh...
+2026-02-04 21:42:47 - fastsurfer_surfrecon.stages.s19_statistics - INFO - Computing anatomical stats for lh...
+2026-02-04 21:42:47 - fastsurfer_surfrecon.stages.s19_statistics - INFO - Computing anatomical stats for lh...
+2026-02-04 21:42:47 - fastsurfer_surfrecon.stages.s19_statistics - INFO - Computing anatomical stats for lh...
+2026-02-04 21:42:49 - fastsurfer_surfrecon.stages.statistics - INFO - Completed s19 statistics (lh) in 5.6s
+2026-02-04 21:42:49 - fastsurfer_surfrecon.stages.statistics - INFO - Completed s19 statistics (lh) in 5.6s
+2026-02-04 21:42:49 - fastsurfer_surfrecon.stages.statistics - INFO - Completed s19 statistics (lh) in 5.6s
+2026-02-04 21:42:49 - fastsurfer_surfrecon.stages.statistics - INFO - Completed s19 statistics (lh) in 5.6s
+2026-02-04 21:42:49 - fastsurfer_surfrecon.stages.statistics - INFO - Completed s19 statistics (lh) in 5.6s
+2026-02-04 21:42:49 - fastsurfer_surfrecon.stages.statistics - INFO - Starting s19 statistics (rh)
+2026-02-04 21:42:49 - fastsurfer_surfrecon.stages.statistics - INFO - Starting s19 statistics (rh)
+2026-02-04 21:42:49 - fastsurfer_surfrecon.stages.statistics - INFO - Starting s19 statistics (rh)
+2026-02-04 21:42:49 - fastsurfer_surfrecon.stages.statistics - INFO - Starting s19 statistics (rh)
+2026-02-04 21:42:49 - fastsurfer_surfrecon.stages.statistics - INFO - Starting s19 statistics (rh)
+2026-02-04 21:42:49 - fastsurfer_surfrecon.stages.s19_statistics - INFO - Computing curvature statistics for rh...
+2026-02-04 21:42:49 - fastsurfer_surfrecon.stages.s19_statistics - INFO - Computing curvature statistics for rh...
+2026-02-04 21:42:49 - fastsurfer_surfrecon.stages.s19_statistics - INFO - Computing curvature statistics for rh...
+2026-02-04 21:42:49 - fastsurfer_surfrecon.stages.s19_statistics - INFO - Computing curvature statistics for rh...
+2026-02-04 21:42:49 - fastsurfer_surfrecon.stages.s19_statistics - INFO - Computing curvature statistics for rh...
+2026-02-04 21:42:53 - fastsurfer_surfrecon.stages.s19_statistics - INFO - Computing anatomical stats for rh...
+2026-02-04 21:42:53 - fastsurfer_surfrecon.stages.s19_statistics - INFO - Computing anatomical stats for rh...
+2026-02-04 21:42:53 - fastsurfer_surfrecon.stages.s19_statistics - INFO - Computing anatomical stats for rh...
+2026-02-04 21:42:53 - fastsurfer_surfrecon.stages.s19_statistics - INFO - Computing anatomical stats for rh...
+2026-02-04 21:42:53 - fastsurfer_surfrecon.stages.s19_statistics - INFO - Computing anatomical stats for rh...
+2026-02-04 21:42:54 - fastsurfer_surfrecon.stages.statistics - INFO - Completed s19 statistics (rh) in 5.0s
+2026-02-04 21:42:54 - fastsurfer_surfrecon.stages.statistics - INFO - Completed s19 statistics (rh) in 5.0s
+2026-02-04 21:42:54 - fastsurfer_surfrecon.stages.statistics - INFO - Completed s19 statistics (rh) in 5.0s
+2026-02-04 21:42:54 - fastsurfer_surfrecon.stages.statistics - INFO - Completed s19 statistics (rh) in 5.0s
+2026-02-04 21:42:54 - fastsurfer_surfrecon.stages.statistics - INFO - Completed s19 statistics (rh) in 5.0s
+
+================================================================================
+FastSurfer Recon Pipeline Log (Single Stage Test)
+Subject: sub-NMT2Asym
+Run Step: s20
+Start: 2026-02-04 21:42:54.563950
+================================================================================
+
+2026-02-04 21:42:54 - fastsurfer_surfrecon.stages.aseg_refinement - INFO - Starting s20 aseg_refinement
+2026-02-04 21:42:54 - fastsurfer_surfrecon.stages.aseg_refinement - INFO - Starting s20 aseg_refinement
+2026-02-04 21:42:54 - fastsurfer_surfrecon.stages.aseg_refinement - INFO - Starting s20 aseg_refinement
+2026-02-04 21:42:54 - fastsurfer_surfrecon.stages.aseg_refinement - INFO - Starting s20 aseg_refinement
+2026-02-04 21:42:54 - fastsurfer_surfrecon.stages.aseg_refinement - INFO - Starting s20 aseg_refinement
+2026-02-04 21:42:54 - fastsurfer_surfrecon.stages.aseg_refinement - INFO - Starting s20 aseg_refinement
+2026-02-04 21:42:54 - fastsurfer_surfrecon.stages.s20_aseg_refinement - INFO - Creating aseg.presurf.hypos.mgz...
+2026-02-04 21:42:54 - fastsurfer_surfrecon.stages.s20_aseg_refinement - INFO - Creating aseg.presurf.hypos.mgz...
+2026-02-04 21:42:54 - fastsurfer_surfrecon.stages.s20_aseg_refinement - INFO - Creating aseg.presurf.hypos.mgz...
+2026-02-04 21:42:54 - fastsurfer_surfrecon.stages.s20_aseg_refinement - INFO - Creating aseg.presurf.hypos.mgz...
+2026-02-04 21:42:54 - fastsurfer_surfrecon.stages.s20_aseg_refinement - INFO - Creating aseg.presurf.hypos.mgz...
+2026-02-04 21:42:54 - fastsurfer_surfrecon.stages.s20_aseg_refinement - INFO - Creating aseg.presurf.hypos.mgz...
+2026-02-04 21:43:06 - fastsurfer_surfrecon.stages.s20_aseg_refinement - INFO - Creating aseg.mgz from aseg.presurf.hypos with surfaces...
+2026-02-04 21:43:06 - fastsurfer_surfrecon.stages.s20_aseg_refinement - INFO - Creating aseg.mgz from aseg.presurf.hypos with surfaces...
+2026-02-04 21:43:06 - fastsurfer_surfrecon.stages.s20_aseg_refinement - INFO - Creating aseg.mgz from aseg.presurf.hypos with surfaces...
+2026-02-04 21:43:06 - fastsurfer_surfrecon.stages.s20_aseg_refinement - INFO - Creating aseg.mgz from aseg.presurf.hypos with surfaces...
+2026-02-04 21:43:06 - fastsurfer_surfrecon.stages.s20_aseg_refinement - INFO - Creating aseg.mgz from aseg.presurf.hypos with surfaces...
+2026-02-04 21:43:06 - fastsurfer_surfrecon.stages.s20_aseg_refinement - INFO - Creating aseg.mgz from aseg.presurf.hypos with surfaces...
+2026-02-04 21:43:16 - fastsurfer_surfrecon.stages.aseg_refinement - INFO - Completed s20 aseg_refinement in 22.4s
+2026-02-04 21:43:16 - fastsurfer_surfrecon.stages.aseg_refinement - INFO - Completed s20 aseg_refinement in 22.4s
+2026-02-04 21:43:16 - fastsurfer_surfrecon.stages.aseg_refinement - INFO - Completed s20 aseg_refinement in 22.4s
+2026-02-04 21:43:16 - fastsurfer_surfrecon.stages.aseg_refinement - INFO - Completed s20 aseg_refinement in 22.4s
+2026-02-04 21:43:16 - fastsurfer_surfrecon.stages.aseg_refinement - INFO - Completed s20 aseg_refinement in 22.4s
+2026-02-04 21:43:16 - fastsurfer_surfrecon.stages.aseg_refinement - INFO - Completed s20 aseg_refinement in 22.4s
+
+================================================================================
+FastSurfer Recon Pipeline Log (Single Stage Test)
+Subject: sub-NMT2Asym
+Run Step: s21
+Start: 2026-02-04 21:43:16.994113
+================================================================================
+
+2026-02-04 21:43:16 - fastsurfer_surfrecon.stages.aparc_mapping - INFO - Starting s21 aparc_mapping
+2026-02-04 21:43:16 - fastsurfer_surfrecon.stages.aparc_mapping - INFO - Starting s21 aparc_mapping
+2026-02-04 21:43:16 - fastsurfer_surfrecon.stages.aparc_mapping - INFO - Starting s21 aparc_mapping
+2026-02-04 21:43:16 - fastsurfer_surfrecon.stages.aparc_mapping - INFO - Starting s21 aparc_mapping
+2026-02-04 21:43:16 - fastsurfer_surfrecon.stages.aparc_mapping - INFO - Starting s21 aparc_mapping
+2026-02-04 21:43:16 - fastsurfer_surfrecon.stages.aparc_mapping - INFO - Starting s21 aparc_mapping
+2026-02-04 21:43:16 - fastsurfer_surfrecon.stages.aparc_mapping - INFO - Starting s21 aparc_mapping
+2026-02-04 21:43:16 - fastsurfer_surfrecon.stages.s21_aparc_mapping - INFO - Mapping surface parcellation to volume...
+2026-02-04 21:43:16 - fastsurfer_surfrecon.stages.s21_aparc_mapping - INFO - Mapping surface parcellation to volume...
+2026-02-04 21:43:16 - fastsurfer_surfrecon.stages.s21_aparc_mapping - INFO - Mapping surface parcellation to volume...
+2026-02-04 21:43:16 - fastsurfer_surfrecon.stages.s21_aparc_mapping - INFO - Mapping surface parcellation to volume...
+2026-02-04 21:43:16 - fastsurfer_surfrecon.stages.s21_aparc_mapping - INFO - Mapping surface parcellation to volume...
+2026-02-04 21:43:16 - fastsurfer_surfrecon.stages.s21_aparc_mapping - INFO - Mapping surface parcellation to volume...
+2026-02-04 21:43:16 - fastsurfer_surfrecon.stages.s21_aparc_mapping - INFO - Mapping surface parcellation to volume...
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.s21_aparc_mapping - INFO - Creating symlink: aparc.ARM2atlas+aseg.mgz
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.s21_aparc_mapping - INFO - Creating symlink: aparc.ARM2atlas+aseg.mgz
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.s21_aparc_mapping - INFO - Creating symlink: aparc.ARM2atlas+aseg.mgz
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.s21_aparc_mapping - INFO - Creating symlink: aparc.ARM2atlas+aseg.mgz
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.s21_aparc_mapping - INFO - Creating symlink: aparc.ARM2atlas+aseg.mgz
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.s21_aparc_mapping - INFO - Creating symlink: aparc.ARM2atlas+aseg.mgz
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.s21_aparc_mapping - INFO - Creating symlink: aparc.ARM2atlas+aseg.mgz
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.s21_aparc_mapping - INFO - Creating symlink: aparc+aseg.mgz
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.s21_aparc_mapping - INFO - Creating symlink: aparc+aseg.mgz
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.s21_aparc_mapping - INFO - Creating symlink: aparc+aseg.mgz
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.s21_aparc_mapping - INFO - Creating symlink: aparc+aseg.mgz
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.s21_aparc_mapping - INFO - Creating symlink: aparc+aseg.mgz
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.s21_aparc_mapping - INFO - Creating symlink: aparc+aseg.mgz
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.s21_aparc_mapping - INFO - Creating symlink: aparc+aseg.mgz
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.aparc_mapping - INFO - Completed s21 aparc_mapping in 9.9s
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.aparc_mapping - INFO - Completed s21 aparc_mapping in 9.9s
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.aparc_mapping - INFO - Completed s21 aparc_mapping in 9.9s
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.aparc_mapping - INFO - Completed s21 aparc_mapping in 9.9s
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.aparc_mapping - INFO - Completed s21 aparc_mapping in 9.9s
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.aparc_mapping - INFO - Completed s21 aparc_mapping in 9.9s
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.aparc_mapping - INFO - Completed s21 aparc_mapping in 9.9s
+
+================================================================================
+FastSurfer Recon Pipeline Log (Single Stage Test)
+Subject: sub-NMT2Asym
+Run Step: s22
+Start: 2026-02-04 21:43:26.891575
+================================================================================
+
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.wmparc_mapping - INFO - Starting s22 wmparc_mapping
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.wmparc_mapping - INFO - Starting s22 wmparc_mapping
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.wmparc_mapping - INFO - Starting s22 wmparc_mapping
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.wmparc_mapping - INFO - Starting s22 wmparc_mapping
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.wmparc_mapping - INFO - Starting s22 wmparc_mapping
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.wmparc_mapping - INFO - Starting s22 wmparc_mapping
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.wmparc_mapping - INFO - Starting s22 wmparc_mapping
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.wmparc_mapping - INFO - Starting s22 wmparc_mapping
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.s22_wmparc_mapping - INFO - Mapping surface parcellation to white matter volume...
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.s22_wmparc_mapping - INFO - Mapping surface parcellation to white matter volume...
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.s22_wmparc_mapping - INFO - Mapping surface parcellation to white matter volume...
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.s22_wmparc_mapping - INFO - Mapping surface parcellation to white matter volume...
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.s22_wmparc_mapping - INFO - Mapping surface parcellation to white matter volume...
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.s22_wmparc_mapping - INFO - Mapping surface parcellation to white matter volume...
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.s22_wmparc_mapping - INFO - Mapping surface parcellation to white matter volume...
+2026-02-04 21:43:26 - fastsurfer_surfrecon.stages.s22_wmparc_mapping - INFO - Mapping surface parcellation to white matter volume...
+2026-02-04 21:43:30 - fastsurfer_surfrecon.stages.s22_wmparc_mapping - INFO - Creating symlink: wmparc.mgz
+2026-02-04 21:43:30 - fastsurfer_surfrecon.stages.s22_wmparc_mapping - INFO - Creating symlink: wmparc.mgz
+2026-02-04 21:43:30 - fastsurfer_surfrecon.stages.s22_wmparc_mapping - INFO - Creating symlink: wmparc.mgz
+2026-02-04 21:43:30 - fastsurfer_surfrecon.stages.s22_wmparc_mapping - INFO - Creating symlink: wmparc.mgz
+2026-02-04 21:43:30 - fastsurfer_surfrecon.stages.s22_wmparc_mapping - INFO - Creating symlink: wmparc.mgz
+2026-02-04 21:43:30 - fastsurfer_surfrecon.stages.s22_wmparc_mapping - INFO - Creating symlink: wmparc.mgz
+2026-02-04 21:43:30 - fastsurfer_surfrecon.stages.s22_wmparc_mapping - INFO - Creating symlink: wmparc.mgz
+2026-02-04 21:43:30 - fastsurfer_surfrecon.stages.s22_wmparc_mapping - INFO - Creating symlink: wmparc.mgz
+2026-02-04 21:43:30 - fastsurfer_surfrecon.stages.wmparc_mapping - INFO - Completed s22 wmparc_mapping in 3.7s
+2026-02-04 21:43:30 - fastsurfer_surfrecon.stages.wmparc_mapping - INFO - Completed s22 wmparc_mapping in 3.7s
+2026-02-04 21:43:30 - fastsurfer_surfrecon.stages.wmparc_mapping - INFO - Completed s22 wmparc_mapping in 3.7s
+2026-02-04 21:43:30 - fastsurfer_surfrecon.stages.wmparc_mapping - INFO - Completed s22 wmparc_mapping in 3.7s
+2026-02-04 21:43:30 - fastsurfer_surfrecon.stages.wmparc_mapping - INFO - Completed s22 wmparc_mapping in 3.7s
+2026-02-04 21:43:30 - fastsurfer_surfrecon.stages.wmparc_mapping - INFO - Completed s22 wmparc_mapping in 3.7s
+2026-02-04 21:43:30 - fastsurfer_surfrecon.stages.wmparc_mapping - INFO - Completed s22 wmparc_mapping in 3.7s
+2026-02-04 21:43:30 - fastsurfer_surfrecon.stages.wmparc_mapping - INFO - Completed s22 wmparc_mapping in 3.7s
