@@ -14,6 +14,11 @@ Surfaces were derived from the white and pial surfaces provided with each volume
 
 The full FreeSurfer-style pipeline (sphere, cortical ribbon, curvature, thickness, etc.) was completed using **Brainana**—a non-human primate MRI volume and surface preprocessing pipeline (in preparation).
 
+## Volumetric atlas projection on surface
+
+- **CHARM**: NMT [CHARM](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/nonhuman/macaque_tempatl/atlas_charm.html)
+- **Retinotopy**: Retinotopy (polar angle and eccentricity) atlas from [Arcaro MJ & Livingstone MS (2017)](https://pubmed.ncbi.nlm.nih.gov/28674177/). Detailed description see [atlas-retinotopy_info.md](atlas-retinotopy_info.md).
+
 ## Quality control
 
 ### NMT2Sym
@@ -27,6 +32,9 @@ Cortical surfaces and measures
 CHARM projection on the surface
 ![CHARM projection on the surface](sub-NMT2Sym/QC/CHARM_annot_qc.png)
 
+Retinotopy
+![Retinotopy projection on the surface](sub-NMT2Sym/QC/atlas-retinotopy.png)
+
 ### NMT2Asym
 
 Tissue segmentation
@@ -37,6 +45,9 @@ Cortical surfaces and measures
 
 CHARM projection on the surface
 ![CHARM projection on the surface](sub-NMT2Asym/QC/CHARM_annot_qc.png)
+
+Retinotopy
+![Retinotopy projection on the surface](sub-NMT2Asym/QC/atlas-retinotopy.png)
 
 ### MEBRAINS
 
@@ -49,6 +60,8 @@ Cortical surfaces and measures
 CHARM projection on the surface
 ![CHARM projection on the surface](sub-MEBRAINS/QC/CHARM_annot_qc.png)
 
+Retinotopy
+![Retinotopy projection on the surface](sub-MEBRAINS/QC/atlas-retinotopy.png)
 
 ## Repository structure
 
@@ -58,7 +71,7 @@ CHARM projection on the surface
 │   ├── mri/        # Volumetric segmentations and transforms
 │   ├── surf/       # Cortical surface meshes (white, pial, inflated, etc.)
 │   ├── label/      # Cortical labels and parcellations
-│   ├── atlas/      # CHARM atlases projected on surface
+│   ├── atlas/      # Atlases projected on surface (CHARM, retinotopy)
 │   ├── stats/      # Surface-based statistics
 │   └── ...
 └── sub-xxx/
@@ -67,4 +80,4 @@ CHARM projection on the surface
 
 ## Citation and references
 
-When using these surfaces, please cite the respective template sources.
+When using these surfaces, please cite the respective template or atlas sources.
