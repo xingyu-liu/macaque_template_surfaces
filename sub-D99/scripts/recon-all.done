@@ -1,0 +1,13 @@
+------------------------------
+SUBJECT sub-D99
+START_TIME Wed Apr 1 10:52:20 EDT 2026
+END_TIME Wed Apr 1 10:53:06 EDT 2026
+RUNTIME_HOURS 0.013
+USER star
+HOST SAS-664VW04
+PROCESSOR x86_64
+OS Linux
+UNAME Linux SAS-664VW04 6.8.0-101-generic #101~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Wed Feb 11 13:19:54 UTC  x86_64 x86_64 x86_64 GNU/Linux
+VERSION 7.4.1 (freesurfer-linux-ubuntu22_x86_64-7.4.1-20230614-7eb8460)
+CMDPATH /usr/local/freesurfer/7.4.1/bin/recon-all
+CMDARGS -s sub-D99 -apas2aseg -hires -threads 8 -itkthreads 8 -no-isrunning -umask 022

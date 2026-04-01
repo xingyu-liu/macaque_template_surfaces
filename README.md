@@ -5,8 +5,10 @@ These surfaces support visualization and analysis in standard neuroimaging workf
 
 ## Templates
 
-- **NMT2** — NMT v2 0.5 mm symmetric (**Sym**) and asymmetric (**Asym**) macaque template ([NMT v2](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/nonhuman/macaque_tempatl/template_nmtv2.html))
-- **MEBRAINS** — MEBRAINS macaque template ([MEBRAINS](https://search.kg.ebrains.eu/instances/de58ab47-b980-437c-8906-87f1123e14fb))
+- **NMT2** — [NMT v2](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/nonhuman/macaque_tempatl/template_nmtv2.html) 0.5 mm symmetric (**Sym**) and asymmetric (**Asym**)  template
+- **MEBRAINS** — [MEBRAINS](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/nonhuman/macaque_tempatl/template_nmtv2.html) template
+- **Yerkes19** — [Yerkes19](https://doi.org/10.1093/cercor/bhr290) macaque template [(balsa)](https://balsa.wustl.edu/reference/976nz)
+- **D99** — [D99](https://doi.org/10.1016/j.neuroimage.2021.118759) template
 
 ## Generation
 
@@ -62,6 +64,28 @@ CHARM projection on the surface
 
 Retinotopy
 ![Retinotopy projection on the surface](sub-MEBRAINS/QC/atlas-retinotopy.png)
+
+### Yerkes19
+
+Tissue segmentation
+![Tissue segmentation](sub-Yerkes19/QC/test_surf_recon_tissue_seg.png)
+
+Cortical surfaces and measures  
+![Cortical surfaces and measures](sub-Yerkes19/QC/test_cortical_surf_and_measures.png)
+
+CHARM projection on the surface
+![CHARM projection on the surface](sub-Yerkes19/QC/CHARM_annot_qc.png)
+
+### D99
+
+Tissue segmentation
+![Tissue segmentation](sub-D99/QC/test_surf_recon_tissue_seg.png)
+
+Cortical surfaces and measures  
+![Cortical surfaces and measures](sub-D99/QC/test_cortical_surf_and_measures.png)
+
+CHARM projection on the surface
+![CHARM projection on the surface](sub-D99/QC/CHARM_annot_qc.png)
 
 ## Repository structure
 
