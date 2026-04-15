@@ -20,26 +20,26 @@ Raw <mean> +- <std> (using 'lh.curv'):                -0.07712 +- 0.3661
        Raw AreaNorm Positive Surface Integral:         0.17135 across 4850.575195 (49.34%) mm^2
        Raw AreaNorm Negative Surface Integral:         0.25998 across 4980.507812 (50.66%) mm^2
 
-Raw <mean> +- <std> (using 'lh.sulc'):                 0.00000 +- 1.0738 
-       Raw Min:                                       -2.95543 at vertex 100764  
-       Raw Max:                                        2.36209 at vertex 38960   
+Raw <mean> +- <std> (using 'lh.sulc'):                -0.00000 +- 1.5857 
+       Raw Min:                                       -4.51802 at vertex 100764  
+       Raw Max:                                        3.74976 at vertex 50496   
        Raw Curvature Calculation Type:                discrete
        Raw Mean Vertex Separation (Whole Surface):     0.34098 +- 0.08536 mm
        Raw Total Surface Area:                      9831.08887 mm^2
        Raw Total Number of Vertices:                    100988
        Raw Average Vertex Area (Whole Surface):        0.09735 mm^2
-       Raw Natural Surface Integral:                 326.45270
-       Raw Rectified Surface Integral:              8682.16797
-       Raw Positive Surface Integral:               4504.31055
-       Raw Negative Surface Integral:               4177.85791
-       Raw Mean Natural Surface Integral:              0.00323 across 100988 (100.00%) vertices
-       Raw Mean Rectified Surface Integral:            0.08597 across 100988 (100.00%) vertices
-       Raw Mean Positive Surface Integral:             0.09651 across 46672 (46.22%) vertices
-       Raw Mean Negative Surface Integral:             0.07692 across 54316 (53.78%) vertices
-       Raw AreaNorm Natural Surface Integral:          0.03321 across 9831.114258 (100.00%) mm^2
-       Raw AreaNorm Rectified Surface Integral:        0.88313 across 9831.114258 (100.00%) mm^2
-       Raw AreaNorm Positive Surface Integral:         0.97918 across 4600.102539 (46.79%) mm^2
-       Raw AreaNorm Negative Surface Integral:         0.79868 across 5230.979492 (53.21%) mm^2
+       Raw Natural Surface Integral:                 435.63385
+       Raw Rectified Surface Integral:             12774.68262
+       Raw Positive Surface Integral:               6605.15820
+       Raw Negative Surface Integral:               6169.52441
+       Raw Mean Natural Surface Integral:              0.00431 across 100988 (100.00%) vertices
+       Raw Mean Rectified Surface Integral:            0.12650 across 100988 (100.00%) vertices
+       Raw Mean Positive Surface Integral:             0.14380 across 45933 (45.48%) vertices
+       Raw Mean Negative Surface Integral:             0.11206 across 55055 (54.52%) vertices
+       Raw AreaNorm Natural Surface Integral:          0.04431 across 9831.114258 (100.00%) mm^2
+       Raw AreaNorm Rectified Surface Integral:        1.29941 across 9831.114258 (100.00%) mm^2
+       Raw AreaNorm Positive Surface Integral:         1.46097 across 4521.072754 (45.99%) mm^2
+       Raw AreaNorm Negative Surface Integral:         1.16187 across 5310.001953 (54.01%) mm^2
 
 K <mean> +- <std> (using 'lh.smoothwm'):               0.99137 +- 66.5147 mm^-2
          K Min:                                     -578.20850 at vertex 51656   

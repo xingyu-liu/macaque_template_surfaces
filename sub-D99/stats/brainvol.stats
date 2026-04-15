@@ -1,16 +1,16 @@
-# Measure BrainSeg, BrainSegVol, Brain Segmentation Volume, 90316.125000000000, mm^3
-# Measure BrainSegNotVent, BrainSegVolNotVent, Brain Segmentation Volume Without Ventricles, 89870.250000000000, mm^3
-# Measure SupraTentorial, SupraTentorialVol, Supratentorial volume, 83627.458543536617, mm^3
-# Measure SupraTentorialNotVent, SupraTentorialVolNotVent, Supratentorial volume, 83181.583543536617, mm^3
+# Measure BrainSeg, BrainSegVol, Brain Segmentation Volume, 90269.875000000000, mm^3
+# Measure BrainSegNotVent, BrainSegVolNotVent, Brain Segmentation Volume Without Ventricles, 89824.000000000000, mm^3
+# Measure SupraTentorial, SupraTentorialVol, Supratentorial volume, 83569.083543536617, mm^3
+# Measure SupraTentorialNotVent, SupraTentorialVolNotVent, Supratentorial volume, 83123.208543536617, mm^3
 # Measure SubCortGray, SubCortGrayVol, Subcortical gray matter volume, 8247.750000000000, mm^3
-# Measure lhCortex, lhCortexVol, Left hemisphere cortical gray matter volume, 25364.121004916226, mm^3
-# Measure rhCortex, rhCortexVol, Right hemisphere cortical gray matter volume, 25631.871011488503, mm^3
-# Measure Cortex, CortexVol, Total cortical gray matter volume, 50995.992016404729, mm^3
-# Measure TotalGray, TotalGrayVol, Total gray matter volume, 66949.742016404722, mm^3
-# Measure lhCerebralWhiteMatter, lhCerebralWhiteMatterVol, Left hemisphere cerebral white matter volume, 10995.920770272727, mm^3
-# Measure rhCerebralWhiteMatter, rhCerebralWhiteMatterVol, Right hemisphere cerebral white matter volume, 11198.045756859161, mm^3
-# Measure CerebralWhiteMatter, CerebralWhiteMatterVol, Total cerebral white matter volume, 22193.966527131888, mm^3
+# Measure lhCortex, lhCortexVol, Left hemisphere cortical gray matter volume, 25352.371004916226, mm^3
+# Measure rhCortex, rhCortexVol, Right hemisphere cortical gray matter volume, 25618.371011488503, mm^3
+# Measure Cortex, CortexVol, Total cortical gray matter volume, 50970.742016404729, mm^3
+# Measure TotalGray, TotalGrayVol, Total gray matter volume, 66924.492016404722, mm^3
+# Measure lhCerebralWhiteMatter, lhCerebralWhiteMatterVol, Left hemisphere cerebral white matter volume, 10965.795770272727, mm^3
+# Measure rhCerebralWhiteMatter, rhCerebralWhiteMatterVol, Right hemisphere cerebral white matter volume, 11177.170756859161, mm^3
+# Measure CerebralWhiteMatter, CerebralWhiteMatterVol, Total cerebral white matter volume, 22142.966527131888, mm^3
 # Measure Mask, MaskVol, Mask Volume, 108758.250000000000, mm^3
-# Measure SupraTentorialNotVentVox, SupraTentorialVolNotVentVox, Supratentorial volume voxel count, 81235.875000000000, mm^3
-# Measure BrainSegNotVentSurf, BrainSegVolNotVentSurf, Brain Segmentation Volume Without Ventricles from Surf, 90072.083543536617, mm^3
+# Measure SupraTentorialNotVentVox, SupraTentorialVolNotVentVox, Supratentorial volume voxel count, 81189.625000000000, mm^3
+# Measure BrainSegNotVentSurf, BrainSegVolNotVentSurf, Brain Segmentation Volume Without Ventricles from Surf, 89995.833543536617, mm^3
 # Measure VentricleChoroidVol, VentricleChoroidVol, Volume of ventricles and choroid plexus, 445.875000000000, mm^3

@@ -62,9 +62,6 @@ Cortical surfaces and measures
 CHARM projection on the surface
 ![CHARM projection on the surface](sub-MEBRAINS/QC/CHARM_annot_qc.png)
 
-Retinotopy
-![Retinotopy projection on the surface](sub-MEBRAINS/QC/atlas-retinotopy.png)
-
 ### Yerkes19
 
 Tissue segmentation

@@ -1,6 +1,6 @@
 # Table of FreeSurfer cortical parcellation anatomical statistics 
 # 
-# CreationTime 2026/04/01-14:51:46-GMT
+# CreationTime 2026/04/15-18:44:27-GMT
 # generating_program mris_anatomical_stats
 # cvs_version 7.4.1
 # mrisurf.c-cvs_version 7.4.1
@@ -15,17 +15,17 @@
 # subjectname sub-D99
 # hemi rh
 # AnnotationFile /home/star/github/atlas/public/macaque_template_surfaces/sub-D99/label/rh.aparc.ARM2atlas.mapped.annot
-# AnnotationFileTimeStamp 2026/04/01 10:48:13
-# Measure Cortex, NumVert, Number of Vertices, 140045, unitless
-# Measure Cortex, WhiteSurfArea, White Surface Total Area, 10571.7, mm^2
-# Measure Cortex, MeanThickness, Mean Thickness, 1.94425, mm
+# AnnotationFileTimeStamp 2026/04/15 14:38:05
+# Measure Cortex, NumVert, Number of Vertices, 140199, unitless
+# Measure Cortex, WhiteSurfArea, White Surface Total Area, 10582.5, mm^2
+# Measure Cortex, MeanThickness, Mean Thickness, 1.94392, mm
 # BrainVolStatsFixed see surfer.nmr.mgh.harvard.edu/fswiki/BrainVolStatsFixed
-# Measure BrainSeg, BrainSegVol, Brain Segmentation Volume, 90316.125000, mm^3
-# Measure BrainSegNotVent, BrainSegVolNotVent, Brain Segmentation Volume Without Ventricles, 89870.250000, mm^3
-# Measure BrainSegNotVentSurf, BrainSegVolNotVentSurf, Brain Segmentation Volume Without Ventricles from Surf, 90072.083544, mm^3
-# Measure Cortex, CortexVol, Total cortical gray matter volume, 50995.992016, mm^3
-# Measure SupraTentorial, SupraTentorialVol, Supratentorial volume, 83627.458544, mm^3
-# Measure SupraTentorialNotVent, SupraTentorialVolNotVent, Supratentorial volume, 83181.583544, mm^3
+# Measure BrainSeg, BrainSegVol, Brain Segmentation Volume, 90269.875000, mm^3
+# Measure BrainSegNotVent, BrainSegVolNotVent, Brain Segmentation Volume Without Ventricles, 89824.000000, mm^3
+# Measure BrainSegNotVentSurf, BrainSegVolNotVentSurf, Brain Segmentation Volume Without Ventricles from Surf, 89995.833544, mm^3
+# Measure Cortex, CortexVol, Total cortical gray matter volume, 50970.742016, mm^3
+# Measure SupraTentorial, SupraTentorialVol, Supratentorial volume, 83569.083544, mm^3
+# Measure SupraTentorialNotVent, SupraTentorialVolNotVent, Supratentorial volume, 83123.208544, mm^3
 # Measure EstimatedTotalIntraCranialVol, eTIV, Estimated Total Intracranial Volume, 1948106.000000, mm^3
 # NTableCols 10
 # TableCol  1 ColHeader StructName
@@ -59,22 +59,22 @@
 # TableCol 10 FieldName Intrinsic Curvature Index
 # TableCol 10 Units     unitless
 # ColHeaders StructName NumVert SurfArea GrayVol ThickAvg ThickStd MeanCurv GausCurv FoldInd CurvInd
-ACgG                                    4434    392    774  1.926 0.521     0.025     0.007       16     1.2
-OFC                                     9096    644   1647  2.108 0.555     0.023     0.015       64     5.7
-lat_PFC                                 9665    680   2002  2.129 0.538     0.022     0.009       54     3.8
-motor                                   11192    817   3098  2.676 0.536     0.018     0.006       23     2.6
-SI/SII                                  8508    619   1582  1.949 0.405     0.021     0.009       34     3.1
-SPL                                     6503    496   1100  1.833 0.442     0.023     0.011       24     3.3
-IPL                                     8404    602   1478  2.015 0.425     0.017     0.005       19     1.8
-PMC                                     5457    432    988  2.000 0.646     0.024     0.008       22     1.8
-MTL                                     2233    153    529  2.285 0.524     0.022     0.016       10     1.8
-TG                                      1510     97    459  2.549 0.545     0.027     0.017       10     1.1
-ITC                                     12373    952   2202  2.129 0.293     0.018     0.005       25     2.5
-STG/STSd                                4458    324   1043  2.331 0.332     0.017     0.005       15     1.0
-core/belt                               3701    281    618  1.906 0.374     0.017     0.005        8     0.8
-floor_of_ls                             2648    208    375  1.818 0.289     0.017     0.004        3     0.5
-MT                                      829     66    109  1.937 0.166     0.012     0.003        0     0.1
-V2-V4                                   26317   2016   3918  1.588 0.350     0.028     0.013      180    15.1
-V1                                      18351   1421   2590  1.642 0.369     0.018     0.007       57     5.9
-MPal                                    3555    305    515  1.502 0.534     0.029     0.016       22     2.8
-Amy                                     811     64    151  1.550 0.639     0.032     0.023        6     0.6
+ACgG                                    4384    386    764  1.930 0.501     0.025     0.006       15     1.2
+OFC                                     9287    655   1696  2.117 0.550     0.023     0.015       66     5.6
+lat_PFC                                 9545    675   1979  2.129 0.540     0.022     0.009       51     3.6
+motor                                   10994    800   3063  2.689 0.529     0.018     0.005       22     2.5
+SI/SII                                  8488    618   1573  1.947 0.402     0.021     0.009       34     3.1
+SPL                                     6558    504   1105  1.822 0.436     0.023     0.011       25     3.3
+IPL                                     8144    581   1444  2.020 0.426     0.017     0.005       18     1.7
+PMC                                     5492    433    996  2.017 0.641     0.023     0.007       21     1.7
+MTL                                     2354    163    576  2.280 0.509     0.023     0.018       12     2.1
+TG                                      1481     96    447  2.524 0.572     0.027     0.017       10     1.1
+ITC                                     12616    968   2250  2.130 0.298     0.018     0.005       27     2.6
+STG/STSd                                4585    332   1081  2.340 0.332     0.018     0.006       16     1.1
+core/belt                               3802    288    605  1.881 0.355     0.017     0.005        8     0.8
+floor_of_ls                             2637    208    377  1.823 0.288     0.017     0.004        3     0.5
+MT                                      843     68    113  1.911 0.158     0.012     0.003        0     0.1
+V2-V4                                   26325   2017   3923  1.584 0.351     0.028     0.014      187    16.0
+V1                                      18200   1410   2565  1.644 0.367     0.018     0.007       51     5.3
+MPal                                    3590    308    499  1.484 0.527     0.028     0.015       21     2.7
+Amy                                     874     73    151  1.480 0.650     0.036     0.027        7     1.0
