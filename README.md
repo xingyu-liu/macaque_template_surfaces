@@ -14,7 +14,7 @@ These surfaces support visualization and analysis in standard neuroimaging workf
 
 Surfaces were derived from the white and pial surfaces provided with each volume template, along with NMT [CHARM](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/nonhuman/macaque_tempatl/atlas_charm.html) and [SARM](https://afni.nimh.nih.gov/pub/dist/doc/htmldoc/nonhuman/macaque_tempatl/atlas_sarm.html) parcellations. 
 
-The full FreeSurfer-style pipeline (sphere, cortical ribbon, curvature, thickness, etc.) was completed using **Brainana**—a non-human primate MRI volume and surface preprocessing pipeline (in preparation).
+The full FreeSurfer-style pipeline (sphere, cortical ribbon, curvature, thickness, etc.) was completed using **Brainana**—a non-human primate MRI volume and surface preprocessing pipeline ([preprint](https://www.biorxiv.org/content/10.64898/2026.06.03.729972v1.abstract)).
 
 ## Volumetric atlas projection on surface
 
@@ -101,4 +101,7 @@ CHARM projection on the surface
 
 ## Citation and references
 
-When using these surfaces, please cite the respective template or atlas sources.
+When using these surfaces, please cite the respective template, atlas sources, and brainana
+
+> [Brainana: an end-to-end preprocessing framework for macaque neuroimaging](https://www.biorxiv.org/content/10.64898/2026.06.03.729972v1.abstract)
+
