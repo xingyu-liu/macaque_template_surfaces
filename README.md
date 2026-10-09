@@ -56,9 +56,7 @@ Atlases that are not provided in a template's space were first warped from NMT2S
 
 ## Quality control
 
-All atlases are available on every template; atlas QC figures are shown for NMT2Sym only (the others are in each `sub-<T>/QC/` folder).
-
-<details>
+<details open>
 <summary><b>NMT2Sym</b></summary>
 
 Tissue segmentation
@@ -105,6 +103,27 @@ Cortical surfaces and measures
 CHARM projection on the surface
 ![CHARM atlas on the NMT2Asym surface](sub-NMT2Asym/QC/CHARM_annot_qc.png)
 
+Retinotopy
+![Retinotopy on the NMT2Asym surface](sub-NMT2Asym/QC/atlas-retinotopy.png)
+
+Somatotopy
+![Somatotopy on the NMT2Asym surface](sub-NMT2Asym/QC/atlas-somatotopy.png)
+
+D99
+![D99 atlas on the NMT2Asym surface](sub-NMT2Asym/QC/atlas-D99.png)
+
+MacBNA
+![Macaque Brainnetome Atlas (MacBNA) on the NMT2Asym surface](sub-NMT2Asym/QC/atlas-MacBNA.png)
+
+FuncNetwork (lh only)
+![Functional network on the NMT2Asym surface](sub-NMT2Asym/QC/atlas-FuncNetwork.png)
+
+CortHierarchy (lh only)
+![Cortical hierarchy on the NMT2Asym surface](sub-NMT2Asym/QC/atlas-CortHierarchy.png)
+
+FuncConnGrad, gradients 1 and 2 (lh only)
+![Functional connectivity gradient on the NMT2Asym surface](sub-NMT2Asym/QC/atlas-FuncConnGrad.png)
+
 </details>
 
 <details>
@@ -118,6 +137,27 @@ Cortical surfaces and measures
 
 CHARM projection on the surface
 ![CHARM atlas on the MEBRAINS surface](sub-MEBRAINS/QC/CHARM_annot_qc.png)
+
+Retinotopy
+![Retinotopy on the MEBRAINS surface](sub-MEBRAINS/QC/atlas-retinotopy.png)
+
+Somatotopy
+![Somatotopy on the MEBRAINS surface](sub-MEBRAINS/QC/atlas-somatotopy.png)
+
+D99
+![D99 atlas on the MEBRAINS surface](sub-MEBRAINS/QC/atlas-D99.png)
+
+MacBNA
+![Macaque Brainnetome Atlas (MacBNA) on the MEBRAINS surface](sub-MEBRAINS/QC/atlas-MacBNA.png)
+
+FuncNetwork (lh only)
+![Functional network on the MEBRAINS surface](sub-MEBRAINS/QC/atlas-FuncNetwork.png)
+
+CortHierarchy (lh only)
+![Cortical hierarchy on the MEBRAINS surface](sub-MEBRAINS/QC/atlas-CortHierarchy.png)
+
+FuncConnGrad, gradients 1 and 2 (lh only)
+![Functional connectivity gradient on the MEBRAINS surface](sub-MEBRAINS/QC/atlas-FuncConnGrad.png)
 
 </details>
 
@@ -133,6 +173,27 @@ Cortical surfaces and measures
 CHARM projection on the surface
 ![CHARM atlas on the Yerkes19 surface](sub-Yerkes19/QC/CHARM_annot_qc.png)
 
+Retinotopy
+![Retinotopy on the Yerkes19 surface](sub-Yerkes19/QC/atlas-retinotopy.png)
+
+Somatotopy
+![Somatotopy on the Yerkes19 surface](sub-Yerkes19/QC/atlas-somatotopy.png)
+
+D99
+![D99 atlas on the Yerkes19 surface](sub-Yerkes19/QC/atlas-D99.png)
+
+MacBNA
+![Macaque Brainnetome Atlas (MacBNA) on the Yerkes19 surface](sub-Yerkes19/QC/atlas-MacBNA.png)
+
+FuncNetwork (lh only)
+![Functional network on the Yerkes19 surface](sub-Yerkes19/QC/atlas-FuncNetwork.png)
+
+CortHierarchy (lh only)
+![Cortical hierarchy on the Yerkes19 surface](sub-Yerkes19/QC/atlas-CortHierarchy.png)
+
+FuncConnGrad, gradients 1 and 2 (lh only)
+![Functional connectivity gradient on the Yerkes19 surface](sub-Yerkes19/QC/atlas-FuncConnGrad.png)
+
 </details>
 
 <details>
@@ -146,6 +207,27 @@ Cortical surfaces and measures
 
 CHARM projection on the surface
 ![CHARM atlas on the D99 surface](sub-D99/QC/CHARM_annot_qc.png)
+
+Retinotopy
+![Retinotopy on the D99 surface](sub-D99/QC/atlas-retinotopy.png)
+
+Somatotopy
+![Somatotopy on the D99 surface](sub-D99/QC/atlas-somatotopy.png)
+
+D99
+![D99 atlas on the D99 surface](sub-D99/QC/atlas-D99.png)
+
+MacBNA
+![Macaque Brainnetome Atlas (MacBNA) on the D99 surface](sub-D99/QC/atlas-MacBNA.png)
+
+FuncNetwork (lh only)
+![Functional network on the D99 surface](sub-D99/QC/atlas-FuncNetwork.png)
+
+CortHierarchy (lh only)
+![Cortical hierarchy on the D99 surface](sub-D99/QC/atlas-CortHierarchy.png)
+
+FuncConnGrad, gradients 1 and 2 (lh only)
+![Functional connectivity gradient on the D99 surface](sub-D99/QC/atlas-FuncConnGrad.png)
 
 </details>
 
