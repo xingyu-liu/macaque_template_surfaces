@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GIFTI xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd"
+       Version="1"
+       NumberOfDataArrays="1">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[CortexLeft]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ParentProvenance]]></Name>
+         <Value><![CDATA[../CMI_gradients/Macaque_10k/MacaqueYerkes19.L.sphere.10k_fs_LR.surf.gii:
+/home/brainmappers/workbench/fetchdir/wb_command.4479 -surface-flip-lr R.sphere.10k_fs_LR.surf.gii L.sphere.10k_fs_LR.surf.gii
+
+../CMI_gradients/Macaque_10k/MacaqueYerkes19.L.midthickness.10k_fs_LR.surf.gii:
+/media/2TBB/Connectome_Project/Pipelines/global/binaries/caret7/bin_rh_linux64/../exe_rh_linux64/wb_command -surface-resample /media/myelin/brainmappers/MyelinMapping_Project/Macaques/RHZ8_Preuss_20111025/MNINonLinear/Native/RHZ8_Preuss_20111025.L.midthickness.native.surf.gii /media/myelin/brainmappers/MyelinMapping_Project/Macaques/RHZ8_Preuss_20111025/MNINonLinear/Native/RHZ8_Preuss_20111025.L.sphere.MSMSulc.native.surf.gii /media/myelin/brainmappers/MyelinMapping_Project/Macaques/RHZ8_Preuss_20111025/MNINonLinear/fsaverage_LR10k/RHZ8_Preuss_20111025.L.sphere.10k_fs_LR.surf.gii BARYCENTRIC /media/myelin/brainmappers/MyelinMapping_Project/Macaques/RHZ8_Preuss_20111025/MNINonLinear/fsaverage_LR10k/RHZ8_Preuss_20111025.L.midthickness.10k_fs_LR.surf.gii
+
+../CMI_gradients/Macaque_32k/MacaqueYerkes19.L.midthickness.32k_fs_LR.surf.gii:
+/media/2TBB/Connectome_Project/Pipelines/global/binaries/caret7/bin_rh_linux64/../exe_rh_linux64/wb_command -surface-resample /media/myelin/brainmappers/MyelinMapping_Project/Macaques/RHZ8_Preuss_20111025/MNINonLinear/Native/RHZ8_Preuss_20111025.L.midthickness.native.surf.gii /media/myelin/brainmappers/MyelinMapping_Project/Macaques/RHZ8_Preuss_20111025/MNINonLinear/Native/RHZ8_Preuss_20111025.L.sphere.MSMSulc.native.surf.gii /media/myelin/brainmappers/MyelinMapping_Project/Macaques/RHZ8_Preuss_20111025/MNINonLinear/fsaverage_LR32k/RHZ8_Preuss_20111025.L.sphere.32k_fs_LR.surf.gii BARYCENTRIC /media/myelin/brainmappers/MyelinMapping_Project/Macaques/RHZ8_Preuss_20111025/MNINonLinear/fsaverage_LR32k/RHZ8_Preuss_20111025.L.midthickness.32k_fs_LR.surf.gii
+
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[ProgramProvenance]]></Name>
+         <Value><![CDATA[Connectome Workbench
+Type: Command Line Application
+Version: 1.4.2
+Qt Compiled Version: 5.7.0
+Qt Runtime Version: 5.7.0
+Commit: 092b7f2f7dfab0f9ea7cbb6c1db2e5dffd2c1045
+Commit Date: 2020-01-07 17:24:23 -0600
+Compiled with OpenMP: YES
+Compiler: clang++ (/usr/local/clang/4.0.0/bin)
+Compiler Version: 4.0.0
+Compiled Debug: NO
+Operating System: Apple OSX
+]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[Provenance]]></Name>
+         <Value><![CDATA[/Users/seanfw/Dropbox/Neuroimaging_Software/workbench/bin_macosx64/../macosx64_apps/wb_command.app/Contents/MacOS/wb_command -label-resample ../CMI_gradients/cross-species-alignment/L.Yeo2011_7Networks_N1000.human-to-monkey.10k_fs_LR.label.gii ../CMI_gradients/Macaque_10k/MacaqueYerkes19.L.sphere.10k_fs_LR.surf.gii ../CMI_gradients/Macaque_32k/MacaqueYerkes19.L.sphere.32k_fs_LR.surf.gii ADAP_BARY_AREA ../CMI_gradients/cross-species-alignment/L.Yeo2011_7Networks_N1000.human-to-monkey.32k_fs_LR.label.gii -area-surfs ../CMI_gradients/Macaque_10k/MacaqueYerkes19.L.midthickness.10k_fs_LR.surf.gii ../CMI_gradients/Macaque_32k/MacaqueYerkes19.L.midthickness.32k_fs_LR.surf.gii]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[WorkingDirectory]]></Name>
+         <Value><![CDATA[/Users/seanfw/Dropbox/SFW_Wang_projects/Active_projects/Receptor_gradients/walsh-receptor-gradients/analysis]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+      <Label Key="1" Red="0.470588" Green="0.0705882" Blue="0.52549" Alpha="1"><![CDATA[N1_Visual]]></Label>
+      <Label Key="2" Red="0.27451" Green="0.509804" Blue="0.705882" Alpha="1"><![CDATA[N2_Somatomotor]]></Label>
+      <Label Key="3" Red="0" Green="0.462745" Blue="0.054902" Alpha="1"><![CDATA[N3_DorsalAtt]]></Label>
+      <Label Key="4" Red="0.768627" Green="0.227451" Blue="0.980392" Alpha="1"><![CDATA[N4_VentralAtt]]></Label>
+      <Label Key="5" Red="0.862745" Green="0.972549" Blue="0.643137" Alpha="1"><![CDATA[N5_Limbic]]></Label>
+      <Label Key="6" Red="0.901961" Green="0.580392" Blue="0.133333" Alpha="1"><![CDATA[N6_Frontoparietal]]></Label>
+      <Label Key="7" Red="0.803922" Green="0.243137" Blue="0.305882" Alpha="1"><![CDATA[N7_Default]]></Label>
+   </LabelTable>
+<DataArray Intent="NIFTI_INTENT_LABEL"
+           DataType="NIFTI_TYPE_INT32"
+           ArrayIndexingOrder="RowMajorOrder"
+           Dimensionality="1"
+           Dim0="32492"
+           Encoding="GZipBase64Binary"
+           Endian="LittleEndian"
+           ExternalFileName=""
+           ExternalFileOffset="0">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[Name]]></Name>
+         <Value><![CDATA[#1]]></Value>
+      </MD>
+   </MetaData>
+   <Data>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</Data>
+</DataArray>
+</GIFTI>
