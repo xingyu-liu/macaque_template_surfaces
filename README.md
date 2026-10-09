@@ -50,7 +50,7 @@ Use Brainana to process your own macaque anatomical and functional MRI data into
 
 Volume atlases were sampled at 11 depths between the white and pial surfaces and limited to the cortex label. Label atlases keep the most common label across depths, and unlabelled cortex vertices take their neighbours' label. Continuous maps keep the value nearest mid-thickness and are not filled.
 
-Each `atlas/` folder has an `atlas-<name>.bib` with the references for that atlas (please cite them when you use it) and, for label atlases, the label table `atlas-<name>.tsv`. See [atlas-retinotopy_info.md](atlas-retinotopy_info.md) for the layout of the retinotopy maps.
+Each `atlas/` folder has an `atlas-<name>.bib` with the references for that atlas (please cite them when you use it) and, for label atlases, the label table `atlas-<name>.tsv`. Continuous maps also have an `atlas-<name>.md` describing their frames (retinotopy, somatotopy).
 
 Atlases that are not provided in a template's space were first warped from NMT2Sym (ANTs SyN, nearest neighbour; FuncConnGrad from Yerkes19). FuncNetwork, CortHierarchy and FuncConnGrad cover the left hemisphere only. On Yerkes19 they are the original fs_LR surface data, not a volume projection.
 

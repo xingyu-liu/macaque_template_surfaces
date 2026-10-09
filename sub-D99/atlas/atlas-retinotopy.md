@@ -1,13 +1,11 @@
 
-## Retinotopy Atlas Data Description
+## Data Description
 
-### Atlas Data Organization
-
-The atlas data are 4D (x, y, z, functional maps) and include the following frames:
-1. Group average polar angle maps
-2. Group average F-stat for polar angle maps
-3. Group average eccentricity maps
-4. Group average F-stat for eccentricity maps
+The data are 4D (x, y, z, functional maps) and include the following sub-briks:
+1. **Group average polar angle maps**
+2. **Group average F-stat for polar angle maps**
+3. **Group average eccentricity maps**
+4. **Group average F-stat for eccentricity maps**
 
 ### Polar Angle Maps
 
